@@ -2,7 +2,9 @@
 
 19 October 2026 · AUDIT32 · installed Reframed UI 0.23.1
 
-The principal remaining work is native dialog/content redesign and retrofitting opening/closing motion on older custom surfaces. A changed window background or modern dock button does not establish a redesigned destination. The detailed [TODO list](ui-todo.csv) records 35 open work groups, with priorities, access paths, required changes, acceptance checks and source evidence. [Every discovered native type](native-ui-coverage.csv) has a follow-up group; its assignment is **inferred triage**, not a claim that it was visited or that it uses a particular renderer.
+The principal remaining work is native dialog/content redesign and retrofitting opening/closing motion on older custom surfaces. A changed window background or modern dock button does not establish a redesigned destination. The detailed [TODO list](ui-todo.csv) records 41 open work groups, with priorities, access paths, required changes, acceptance checks and source evidence. [Every discovered native type](native-ui-coverage.csv) has a follow-up group; its assignment is **inferred triage**, not a claim that it was visited or that it uses a particular renderer.
+
+The [post-generation supplement](post-generation-ui.md) details six user-provided screenshots from 19 October 2026. These remain open redesign tasks; original AUDIT32 evidence below remains historical.
 
 ## Audit boundary and evidence
 
@@ -41,6 +43,7 @@ All rows remain open. Priority means suggested development order, not permission
 | UI-030–032 | Missing Compare feature, explicit compatibility fallbacks and remaining helper/dynamic UI triage |
 | UI-033 | Current-build visual/functional acceptance for already-restyled surfaces |
 | UI-034–035 | Shared native input widgets, loading/progress and cinematic screens |
+| UI-036–041 | User-observed post-generation site controls, tile details, Factions, ideoligion, characters and xenotype editor |
 
 Start with the visible settings defect and the frequent native storage/bills/policy flows; batch shared motion work across inspector/info/dropdowns. Keep native data models and callbacks. The common shell is a useful shared primitive but cannot supply bespoke content, cleanup correctness or motion for every caller by itself.
 

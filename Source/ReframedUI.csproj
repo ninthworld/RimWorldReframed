@@ -3,7 +3,7 @@
     <TargetFramework>net472</TargetFramework>
     <LangVersion>latest</LangVersion>
     <AssemblyName>ReframedUI</AssemblyName>
-    <Version>0.23.1</Version>
+    <Version>0.23.2</Version>
     <RimWorldDir Condition="'$(RimWorldDir)' == '' and '$(RIMWORLD_DIR)' != ''">$(RIMWORLD_DIR)</RimWorldDir>
     <RimWorldDir Condition="'$(RimWorldDir)' == ''">C:\Program Files (x86)\Steam\steamapps\common\RimWorld</RimWorldDir>
     <ManagedDir Condition="'$(ManagedDir)' == ''">$(RimWorldDir)\RimWorldWin64_Data\Managed</ManagedDir>

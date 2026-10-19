@@ -1,3 +1,11 @@
+# Current checkpoint — v0.23.2 world-entry freeze fix
+
+Tools preparation no longer reads play-only tab services from the new-colony world-selection entry root, including when the master switch is disabled. It resets only owned state and preserves native UI. Work closing-state cleanup uses the same context-before-service ordering. Regression coverage compiles the production Tools context code against throwing entry-root seams. Release build and all 31 pure suites pass; full live regression of both world entry paths remains open.
+
+[Post-generation UI supplement](Audit32/post-generation-ui.md) adds six P1 tasks UI-036–041 from user screenshots. All 41 UI TODO groups remain open; this fix does not implement those redesigns.
+
+## Previous checkpoint
+
 # Current identity and showcase update
 
 The active package and Harmony identities now use ninthworld.reframedui, including save-preview hooks and compatibility ownership checks. Re-enable the renamed package in existing active mod lists. Historical evidence retains observed IDs. Release build and all 31 pure contract projects pass; no new live game acceptance is claimed. The first README panel has its mouse cursor/glow removed only from an empty header region; original crop and repair provenance are preserved.

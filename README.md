@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <kbd>RimWorld 1.6</kbd> · <kbd>v0.23.1</kbd> · <kbd>In development</kbd> · <kbd>Harmony required</kbd>
+  <kbd>RimWorld 1.6</kbd> · <kbd>v0.23.2</kbd> · <kbd>In development</kbd> · <kbd>Harmony required</kbd>
 </p>
 
 <p align="center">

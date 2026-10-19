@@ -8,7 +8,7 @@ using Verse.Sound;
 
 namespace ReframedUI
 {
-    internal static class ToolsPanel
+    internal static partial class ToolsPanel
     {
         private const float Width = 238f, Height = 490f, Padding = 12f, Row = 26f;
         private static readonly ToolsPanelMotion motion = new ToolsPanelMotion();
@@ -35,32 +35,6 @@ namespace ReframedUI
             Current.ProgramState == ProgramState.Playing && !TutorSystem.TutorialMode &&
             (Find.CurrentMap != null || RimWorld.Planet.WorldRendererUtility.WorldSelected) &&
             (Mouse.IsOver(HudLayout.ToolsButtonBounds) || motion.Shell > 0f && Mouse.IsOver(shell));
-
-        internal static void Prepare(bool eligible)
-        {
-            Map currentMap = Find.CurrentMap;
-            bool world = RimWorld.Planet.WorldRendererUtility.WorldSelected;
-            MainButtonDef currentTab = Find.MainTabsRoot?.OpenTab;
-            bool obstructed = Find.WindowStack != null && Find.WindowStack.AnyWindowAbsorbingAllInput;
-            if (eligible && currentMap == lastMap && !obstructed && currentTab != lastTab && currentTab != null)
-                Open(false, "native-tab-opened");
-            else if (!eligible || currentMap != lastMap || world != lastWorld || obstructed)
-            {
-                motion.Reset();
-                search.Reset();
-                focusSearch = false;
-                focusedControl = "";
-                keyboardControl = 0;
-                page = outgoingPage = "main";
-                searchScroll = Vector2.zero;
-                // Only relinquish a focus that this surface owns.
-                if (GUI.GetNameOfFocusedControl() == "Reframed.ToolsSearch") GUI.FocusControl(null);
-                lastReason = "context-reset";
-            }
-            lastMap = currentMap;
-            lastWorld = world;
-            lastTab = currentTab;
-        }
 
         private static void Open(bool value, string reason)
         {

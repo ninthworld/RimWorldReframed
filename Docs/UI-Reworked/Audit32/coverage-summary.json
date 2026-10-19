@@ -1,7 +1,7 @@
 {
   "schema": "ui-backlog-triage-summary-v1",
-  "todo_groups": 35,
-  "open_groups": 35,
+  "todo_groups": 41,
+  "open_groups": 41,
   "inventory_rows": 715,
   "mapped_rows": 715,
   "unmapped_rows": 0,
@@ -41,7 +41,7 @@
   },
   "claim": "Every discovered row is assigned a follow-up group; this is not a percentage of restyled UI.",
   "inputs": {
-    "ui-todo.csv": "f7854fb4281b826faf00a7a1110d108ae132c8d49c9cf5adf296f445a4ffeeef",
+    "ui-todo.csv": "fa20c257913b388c8ee64ee158ee7235e116a858312d4d55a2d50a6fe71112fe",
     "native-ui-inventory.csv": "cd15e9113507edae42160de9861f1e38bded55c044bbe8dc2a357e8181dec347"
   }
 }

@@ -55,8 +55,9 @@ namespace ReframedUI
         internal static void Tick()
         {
             if (owner == null) return;
+            if (!(Find.UIRoot is UIRoot_Play) || !Context) { Reset(); return; }
             bool otherTab = Find.MainTabsRoot.OpenTab != null && Find.MainTabsRoot.OpenTab.tabWindowClass != typeof(MainTabWindow_Work);
-            if (!Context || !motion.Open && (otherTab || Find.WindowStack.AnyWindowAbsorbingAllInput))
+            if (!motion.Open && (otherTab || Find.WindowStack.AnyWindowAbsorbingAllInput))
             { Reset(); return; }
             motion.Tick(Now);
             if (!motion.Open && motion.Panel == 0 && motion.Editor == 0) Reset();

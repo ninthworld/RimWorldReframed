@@ -13,5 +13,5 @@
     </li>
   </modDependencies>
   <loadAfter><li>brrainz.harmony</li></loadAfter>
-  <description>Version 0.23.1. A UI overhaul in development, inspired by yarich SA's RimWorld UI Reworked concept. Reworked menus, save browsing, new-game setup, colony HUD, pawn inspection, Work and Architect panels, notifications, compact colony menus, research graph, History chart and World UI. Modules can be disabled in Mod settings. Startup and scoped offline checks are recorded; complete visual and functional acceptance, broad compatibility, localization and window motion/transparency coverage remain open. Independently implemented; not a complete reproduction or an official collaboration. RimWorld 1.6.</description>
+  <description>Version 0.23.2. A UI overhaul in development, inspired by yarich SA's RimWorld UI Reworked concept. Reworked menus, save browsing, new-game setup, colony HUD, pawn inspection, Work and Architect panels, notifications, compact colony menus, research graph, History chart and World UI. Modules can be disabled in Mod settings. Startup and scoped offline checks are recorded; complete visual and functional acceptance, broad compatibility, localization and window motion/transparency coverage remain open. Independently implemented; not a complete reproduction or an official collaboration. RimWorld 1.6.</description>
 </ModMetaData>

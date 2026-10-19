@@ -9,6 +9,7 @@ internal static class Program
     private static bool Near(float a, float b) => Math.Abs(a - b) < .0001f;
     public static void Main()
     {
+        ContextTests.Run();
         var motion = new ToolsPanelMotion();
         motion.SetOpen(true, 10);
         motion.Tick(10.11);

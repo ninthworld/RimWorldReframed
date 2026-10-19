@@ -76,7 +76,7 @@ namespace ReframedUI
             if (PatchesReady)
             {
                 SavePreviewStore.Initialize();
-                Log.Message("[Reframed UI] v0.23.1 Compact colony menus and research graph loaded.");
+                Log.Message("[Reframed UI] v0.23.2 Compact colony menus and research graph loaded.");
             }
         }
 
@@ -97,7 +97,7 @@ namespace ReframedUI
         {
             var list = new Listing_Standard();
             list.Begin(inRect);
-            list.Label("Reframed UI / 0.23.1");
+            list.Label("Reframed UI / 0.23.2");
             if (Prefs.DevMode && list.ButtonText("Open foundation lab")) FoundationPreview.Open();
             list.GapLine();
             list.CheckboxLabeled("Enable Reframed UI", ref Settings.Enabled);

@@ -18,7 +18,7 @@ namespace ReframedUI
             !Find.WindowStack.AnyWindowAbsorbingAllInput;
         private static bool Prefix(WidgetRow rowVisibility, bool worldView, ref float curBaseY)
         {
-            bool eligible = ReframedMod.Active && ReframedMod.Settings.CompactTools && !TutorSystem.TutorialMode &&
+            bool eligible = ReframedMod.Active && Find.UIRoot is UIRoot_Play && ReframedMod.Settings.CompactTools && !TutorSystem.TutorialMode &&
                 Current.ProgramState == ProgramState.Playing && (worldView || Find.CurrentMap != null);
             ToolsPanel.Prepare(eligible);
             if (!eligible) return true;
