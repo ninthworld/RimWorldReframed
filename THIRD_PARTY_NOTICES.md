@@ -1,6 +1,6 @@
 # Attribution and license scope
 
-The [MIT license](LICENSE) applies to Chris's original project code, documentation and original authored assets. It does not grant rights in third-party material. “Authored reconstruction” describes the production method; it does not establish ownership of a referenced design. No blanket MIT claim is made for the authoritative local repository or its history.
+The [MIT license](LICENSE) applies to NinthWorld's original project code, documentation and original authored assets. It does not grant rights in third-party material. “Authored reconstruction” describes the production method; it does not establish ownership of a referenced design. No blanket MIT claim is made for the authoritative local repository or its history.
 
 ## Design reference and local evidence
 

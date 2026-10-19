@@ -1,3 +1,9 @@
+# Author attribution audit
+
+Public project metadata, MIT copyright attribution and third-party notices now identify NinthWorld. All three direct identity references in the source-only repository are corrected; no active Chris attribution remains. Historical local machine paths, prior test captures/logs, and run records were retained and are not part of the curated public export. No runtime behavior or package identity changed in this attribution update.
+
+## Previous checkpoint
+
 # Current checkpoint — v0.23.2 world-entry freeze fix
 
 Tools preparation no longer reads play-only tab services from the new-colony world-selection entry root, including when the master switch is disabled. It resets only owned state and preserves native UI. Work closing-state cleanup uses the same context-before-service ordering. Regression coverage compiles the production Tools context code against throwing entry-root seams. Release build and all 31 pure suites pass; full live regression of both world entry paths remains open.

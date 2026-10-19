@@ -50,8 +50,8 @@
     },
     {
       "path": "About/About.xml",
-      "bytes": 1235,
-      "sha256": "d05a9c7cd7c74018d4fd761b5966e73fce0c7603126c96cb438712ad09a4d2d3"
+      "bytes": 1240,
+      "sha256": "3c1b097400853e627055f1c2d07f0f50cc6ea8b0dc8457079eed0bc0fef6ea91"
     },
     {
       "path": "Assets/Dock/Animals.svg",
@@ -725,8 +725,8 @@
     },
     {
       "path": "Docs/UI-Reworked/HANDOFF.md",
-      "bytes": 3282,
-      "sha256": "59d13822402c74989b7486e794fcb8f53e9020a9baf2f1d7ec44cb8f86f1d1ff"
+      "bytes": 3771,
+      "sha256": "ae6c640b578a69e76644a6ac2cb6ca91c9a7595adce5e2a33d0a9e687fe19d04"
     },
     {
       "path": "Docs/UI-Reworked/LOCAL_EVIDENCE.md",
@@ -745,8 +745,8 @@
     },
     {
       "path": "Docs/UI-Reworked/execution-state.json",
-      "bytes": 1446,
-      "sha256": "04d26816226a53db5d4d820c0ec4c423127db5e163102cfa12269abff5d7f02f"
+      "bytes": 1749,
+      "sha256": "38befea8cc82842de5e6fd28e97c4ebb0d0745b562b8217f6c000ba086c94eb2"
     },
     {
       "path": "Docs/UI-Reworked/foundation-register.csv",
@@ -780,8 +780,8 @@
     },
     {
       "path": "LICENSE",
-      "bytes": 1083,
-      "sha256": "a27c01796afb08e07b48cfb0a9f3f2cd95073eaf16c3df10a710a54ea356289c"
+      "bytes": 1088,
+      "sha256": "e271a2ce2ca045be515127064e4edf721853702381472bbddc4602cad49b5c54"
     },
     {
       "path": "PROJECT.md",
@@ -1620,8 +1620,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 4791,
-      "sha256": "333d56ae885d258d42f9165fb57bca14caa466d58e85ff65c40d9cccd95c5a3b"
+      "bytes": 4796,
+      "sha256": "15c4eeb33a16e55cebf5e7d10cd176bea0cb53b7a9415d740eebd6be3a8c7561"
     },
     {
       "path": "Tests/BottomMenuContracts/BottomMenuContracts.csproj",
@@ -2990,6 +2990,11 @@
       "date": "2026-10-19",
       "source_commit": "6ea399290766359e1b8210a08d79480cdc7d1483",
       "scope": "Fix entry-world Tools crash; protect Work cleanup; production context regressions; six user-observed post-generation UI tasks."
+    },
+    {
+      "date": "2026-10-19",
+      "source_commit": "8bf203c5667913b2e694a8b251b56879825b232c",
+      "scope": "Identify NinthWorld as project author in About, LICENSE and third-party notices; scan tracked source for former name."
     }
   ]
 }
