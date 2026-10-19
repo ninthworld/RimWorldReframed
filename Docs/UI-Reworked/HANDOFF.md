@@ -1,3 +1,9 @@
+# Current identity and showcase update
+
+The active package and Harmony identities now use ninthworld.reframedui, including save-preview hooks and compatibility ownership checks. Re-enable the renamed package in existing active mod lists. Historical evidence retains observed IDs. Release build and all 31 pure contract projects pass; no new live game acceptance is claimed. The first README panel has its mouse cursor/glow removed only from an empty header region; original crop and repair provenance are preserved.
+
+## Previous checkpoint
+
 # Current presentation — actual UI and RimWorld Reframed branding
 
 The README now isolates actual rendered UI panels and uses a combined RimWorld Reframed logo built from the original game wordmark. The Tools animation is unchanged. The rejected vector UI approximations were never published. See [provenance](../Showcase/README.md) and [exact crop records](../Showcase/panel-crops.json). No runtime changes or broader acceptance claims. The existing package/Harmony identity remains unchanged.

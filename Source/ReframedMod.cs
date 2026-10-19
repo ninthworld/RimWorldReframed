@@ -71,7 +71,7 @@ namespace ReframedUI
             InfoCardPanel.Enabled = () => PatchesReady && Settings != null && Settings.Enabled && Settings.InformationCards;
             ResearchNotice.Enabled = () => AlertCards.Active;
             ResearchNotice.ProtectedTop = () => RightHud.ProtectedTop(320);
-            var harmony = new Harmony("chris.reframedui");
+            var harmony = new Harmony("ninthworld.reframedui");
             PatchesReady = RuntimePatchBootstrap.TryInitialize(harmony);
             if (PatchesReady)
             {

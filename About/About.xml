@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>Reframed UI</name>
   <author>Chris</author>
-  <packageId>chris.reframedui</packageId>
+  <packageId>ninthworld.reframedui</packageId>
   <supportedVersions><li>1.6</li></supportedVersions>
   <modDependencies>
     <li>

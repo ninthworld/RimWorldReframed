@@ -371,6 +371,12 @@
       "bytes": 65671,
       "sha256": "498bd0bc6487e37b3b1c22e09285c6bb34ac83532c99c00bcd589688360067db",
       "provenance": "Composition using unchanged original RimWorld wordmark plus Reframed subtitle; Ludeon portion excluded from MIT"
+    },
+    {
+      "path": "pawn-panel-clean.png",
+      "bytes": 181629,
+      "sha256": "9ee2517ab2030cb618d850a2a9538364ce75c33fccb062db1e9ad274e1a5b267",
+      "provenance": "Actual pawn-panel.png with cursor/glow removed only in empty header rectangle [388,17,508,81] using generated background repair; all other pixels unchanged. Original crop preserved."
     }
   ],
   "presentation_revision": {

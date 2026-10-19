@@ -24,13 +24,13 @@ The project is inspired by [RimWorld UI Reworked by yarich SA](https://www.behan
 
 ## Showcase
 
-The mod's actual UI, isolated so you can see the details. These panels use the original rendered pixels from **v0.23.1**; the full game view and desktop frame are cropped away. [Capture details](Docs/Showcase/README.md).
+The mod's actual UI, isolated so you can see the details. These panels use the original rendered pixels from **v0.23.1**; the full game view and desktop frame are cropped away. The mouse pointer was removed from the first panel. [Capture details](Docs/Showcase/README.md).
 
 ### Your colonists, at a glance
 
 Health, mood, needs, skills and equipment together in the pawn overview.
 
-![Actual Reframed pawn overview panel](Docs/Showcase/pawn-panel.png)
+![Actual Reframed pawn overview panel](Docs/Showcase/pawn-panel-clean.png)
 
 ### Work, with a little more clarity
 
@@ -76,7 +76,7 @@ Research dependencies, project requirements and unlocks in one view.
 
 1. Install **RimWorld 1.6** and the **Harmony** mod (`brrainz.harmony`).
 2. Put the runtime package under RimWorld's `Mods` folder. It must contain `About`, `Assemblies`, `Defs`, `Patches` and `Textures`.
-3. Enable **Harmony** before **Reframed UI** (`chris.reframedui`) in the mod list.
+3. Enable **Harmony** before **Reframed UI** (`ninthworld.reframedui`) in the mod list. If upgrading from the former package ID, re-enable the mod in your active mod list.
 4. Restart RimWorld after installing or updating the DLL.
 
 The runtime is developed and tested on **Windows**. Broad mod/DLC compatibility and other operating systems are still being evaluated. Use a disposable colony or a backed-up save when trying a development build.

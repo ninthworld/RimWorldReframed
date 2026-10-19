@@ -192,7 +192,7 @@ namespace ReframedUI
             | ((uint)bytes[offset + 2] << 8) | bytes[offset + 3];
 
 #if !SAVE_PREVIEW_CONTRACTS
-        private const string HarmonyId = "chris.reframedui.save-previews";
+        private const string HarmonyId = "ninthworld.reframedui.save-previews";
         private static readonly object PendingLock = new object();
         private static readonly List<CaptureRequest> Pending = new List<CaptureRequest>();
         private static bool initialized, rendering;

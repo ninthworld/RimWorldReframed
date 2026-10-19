@@ -4,7 +4,7 @@ Owned implementation: `Source/RosterMenus*.cs`. Design record: `Docs/UI-Reworked
 
 API remains `RosterMenus.Supports(Window)`, `PreferredSize(Window)`, `Draw(Window,Rect body)`, `Reset(Window)`, `Ready` and scoped `Drawing`. New `Func<Rect,IDisposable> PopupScope` wraps actual UI-local control rectangles; the integrator assigns its child-popup anchor helper. The callback is optional and never used to invoke gameplay actions.
 
-Supports requires Playing/current map, exact Schedule/Assign/Animals/Wildlife window, initialized native table, native-assembly table/workers, exactly one exact Label worker and all private seams ready. Unknown custom windows, tables or workers decline atomically. Foreign Harmony patches on loaded DoHeader methods/base chains, or the custom-painted Schedule cell/palette, also decline atomically; only `chris.reframedui` is allowed. Additional non-core Timetable columns decline rather than disappear. Native PostOpen initializes the table; no roster, column or DLC definitions are reconstructed.
+Supports requires Playing/current map, exact Schedule/Assign/Animals/Wildlife window, initialized native table, native-assembly table/workers, exactly one exact Label worker and all private seams ready. Unknown custom windows, tables or workers decline atomically. Foreign Harmony patches on loaded DoHeader methods/base chains, or the custom-painted Schedule cell/palette, also decline atomically; only `ninthworld.reframedui` is allowed. Additional non-core Timetable columns decline rather than disappear. Native PostOpen initializes the table; no roster, column or DLC definitions are reconstructed.
 
 ## Composition and preserved controls
 

@@ -48,7 +48,7 @@ namespace ReframedUI
             if (method == null) return false;
             Patches patches = Harmony.GetPatchInfo(method);
             if (patches == null) return false;
-            foreach (string owner in patches.Owners) if (owner != "chris.reframedui") return true;
+            foreach (string owner in patches.Owners) if (owner != "ninthworld.reframedui") return true;
             return false;
         }
         private static PawnColumnDef Column(PawnTable table, string name)

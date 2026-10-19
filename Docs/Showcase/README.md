@@ -1,8 +1,10 @@
 # Actual UI showcase
 
-The README uses **actual rendered UI panels**, not illustrated or reconstructed controls. The source is the v0.23.1 game captures described below. `Tools/build-showcase-panels.py` crops the original RGB pixels, masks only the rounded outside corners, and adds transparent padding. The Work detail and roster panels are stacked together. Nothing inside a panel is repainted, rescaled or replaced; faint world detail visible through the mod's translucent panels is retained.
+The README uses **actual rendered UI panels**, not illustrated or reconstructed controls. The source is the v0.23.1 game captures described below. `Tools/build-showcase-panels.py` crops the original RGB pixels, masks only the rounded outside corners, and adds transparent padding. The Work detail and roster panels are stacked together. The original crop files retain all rendered pixels; faint world detail visible through the mod's translucent panels is retained.
 
 [Crop rectangles and hashes](panel-crops.json) record the exact source images and processing. The original full-window captures remain here as evidence, but are no longer the README gallery. The Tools GIF is unchanged. The rejected vector UI approximations were never published.
+
+The displayed `pawn-panel-clean.png` removes the mouse cursor and glow from a 120 x 64 pixel empty header region at (388, 17). Only that region uses an image-generated background repair; every pixel outside it is unchanged from `pawn-panel.png`. The unretouched source and crop remain available. No controls or text were regenerated.
 
 ## Original RimWorld logo
 

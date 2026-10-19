@@ -50,8 +50,8 @@
     },
     {
       "path": "About/About.xml",
-      "bytes": 1230,
-      "sha256": "4855ccc5e9183b9a3d35b4e7e0b131f25124753604371690a93f3183129c3a9b"
+      "bytes": 1235,
+      "sha256": "24493dc857b6e22dfa5c19e1cc69614c5209e1ffc5216a8efca4b59a22bfbdb5"
     },
     {
       "path": "Assets/Dock/Animals.svg",
@@ -545,8 +545,8 @@
     },
     {
       "path": "Docs/Showcase/README.md",
-      "bytes": 4085,
-      "sha256": "d6b4255e3b9942976e61d8b817f90ed283ed75e4517c103771cfc7bfdd6f8dfe"
+      "bytes": 4446,
+      "sha256": "f7e3e2b73655d7b1b30f52f9d53a5e2048722d5af792b16bbf4ddc30b520ddc6"
     },
     {
       "path": "Docs/Showcase/main-menu.jpg",
@@ -555,8 +555,8 @@
     },
     {
       "path": "Docs/Showcase/manifest.json",
-      "bytes": 13703,
-      "sha256": "9a1835810251fb216c484e1da9fbd6839c108f86d33acb758b33525bd08e0667"
+      "bytes": 14452,
+      "sha256": "9535f716b4a3c0cba585ec6eb13ae5ebfd0a87f5eb87dfdf4047a40f785c6632"
     },
     {
       "path": "Docs/Showcase/panel-crops.json",
@@ -572,6 +572,11 @@
       "path": "Docs/Showcase/pawn-overview.jpg",
       "bytes": 351511,
       "sha256": "c72de018ba4085021ecc2c36a750b2057b740fabe6e904cdb4a2711478e69e90"
+    },
+    {
+      "path": "Docs/Showcase/pawn-panel-clean.png",
+      "bytes": 181629,
+      "sha256": "9ee2517ab2030cb618d850a2a9538364ce75c33fccb062db1e9ad274e1a5b267"
     },
     {
       "path": "Docs/Showcase/pawn-panel.png",
@@ -715,8 +720,8 @@
     },
     {
       "path": "Docs/UI-Reworked/HANDOFF.md",
-      "bytes": 1953,
-      "sha256": "c0dadcb2009210a6a5be1dfc89696e3cf27b1ecf33a838ce328d83218c4c3e13"
+      "bytes": 2515,
+      "sha256": "2cf365eebac4aa60a92dd046435f8f3307115d15ad4d077ba9c087aaf48e69ba"
     },
     {
       "path": "Docs/UI-Reworked/LOCAL_EVIDENCE.md",
@@ -735,8 +740,8 @@
     },
     {
       "path": "Docs/UI-Reworked/execution-state.json",
-      "bytes": 1005,
-      "sha256": "47f5972737def31720be6e9557e06bf137e4ed5216158a2ce4759fb1a4eaf19f"
+      "bytes": 1304,
+      "sha256": "fa5bc8e9517e146dfbe81393193f241ce94cb26e7b74c519c64738228d11d1dd"
     },
     {
       "path": "Docs/UI-Reworked/foundation-register.csv",
@@ -785,8 +790,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7014,
-      "sha256": "14bfd4376076ba74ad69246f8be44b2822eed02dbf31f38c3801ff471063ddd6"
+      "bytes": 7274,
+      "sha256": "b820c2fee64f72ca4004a2546f5e8eb61e0d2d44ce8b39c93617902794b20809"
     },
     {
       "path": "README.txt",
@@ -1330,8 +1335,8 @@
     },
     {
       "path": "Source/ReframedMod.cs",
-      "bytes": 8373,
-      "sha256": "686243a558da486d02844abb4910a4a298daf09914b88b50b7cd05393e03eff8"
+      "bytes": 8378,
+      "sha256": "a6e6ac467fde28a2d4cd0fcebf66c7d15be3faee413dd9cadc6dfc176d29007c"
     },
     {
       "path": "Source/ReframedSaveBrowser.cs",
@@ -1420,8 +1425,8 @@
     },
     {
       "path": "Source/RosterMenusNative.cs",
-      "bytes": 11465,
-      "sha256": "899511d3c62f0fb0f4c11226cc9e288ce6790155c1d43a164b85001c94c8e101"
+      "bytes": 11470,
+      "sha256": "a0704afd6effc5d3e774d9149bf4c708387934a5dcebb3a4646d71514fcd77f0"
     },
     {
       "path": "Source/RuntimeDiagnostics.cs",
@@ -1430,8 +1435,8 @@
     },
     {
       "path": "Source/RuntimePatchBootstrap.cs",
-      "bytes": 66045,
-      "sha256": "bf69d44768611815f12d1a5e1345dff3041d9cfcc48746f790acb27b6bc29394"
+      "bytes": 66050,
+      "sha256": "1f6425203fc7563bbadb00b85012ecf65a4fbdf44d307549e587dae57f8a8b69"
     },
     {
       "path": "Source/SaveBrowserIcons.cs",
@@ -1445,8 +1450,8 @@
     },
     {
       "path": "Source/SavePreviewStore.cs",
-      "bytes": 18661,
-      "sha256": "5374373ce5349884a50f4e2e8da796958f4e568cce05e42d7f36b4388c10e2da"
+      "bytes": 18666,
+      "sha256": "a565e0a7fd12a030906ceda7eb352789622d0fe674d576955b89e2a521f3d635"
     },
     {
       "path": "Source/SelectionCommands.cs",
@@ -1565,8 +1570,8 @@
     },
     {
       "path": "Source/WorldMenus.cs",
-      "bytes": 3821,
-      "sha256": "9bf43a735f50a4c1df1da95c7880a8400b06cdc09193163a9eff30c9f75c3f4e"
+      "bytes": 3826,
+      "sha256": "eb92072560badd5a26419d21894e7f90afbf7692b8ad8e5372cc42e2165b95a6"
     },
     {
       "path": "Source/WorldMenusFactions.cs",
@@ -1980,8 +1985,8 @@
     },
     {
       "path": "Tests/RosterMenuContracts/README.md",
-      "bytes": 6384,
-      "sha256": "f4ea014490061c459361122f986e3afd0afef810c5315d3bd9c438caf40fc5fa"
+      "bytes": 6389,
+      "sha256": "73e1961b774bf5e57acb5cba5d52e5faa0f7633ec1f92c8b3936ddfe4f75b4bd"
     },
     {
       "path": "Tests/RosterMenuContracts/RosterMenuContracts.csproj",
@@ -2840,8 +2845,8 @@
     },
     {
       "path": "Tools/showcase-files.json",
-      "bytes": 658,
-      "sha256": "1043e9007bba7dded8594ab8bf937ded05bd41267853796d4eaa73149b7b8944"
+      "bytes": 720,
+      "sha256": "041d34e2041d6222a6564f0d018cbf50da200f1dc43b4df0f561c899da959396"
     },
     {
       "path": "Tools/test_foundation_run.py",
@@ -2960,6 +2965,11 @@
         "Tools/build-showcase-panels.py",
         "Tools/showcase-files.json"
       ]
+    },
+    {
+      "date": "2026-10-19",
+      "source_commit": "206284055ad5f4d3659de116e54bfc9470ae768f",
+      "scope": "Rename active package/Harmony owners to ninthworld.reframedui; remove cursor in first showcase panel; build and 31 pure suites pass."
     }
   ]
 }

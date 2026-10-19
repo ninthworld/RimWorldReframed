@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_date": "2026-10-19",
-  "phase": "source_development_with_actual_ui_showcase",
+  "phase": "source_development_ninthworld_identity",
   "version": "0.23.1",
   "source_repository_commit": "176b194a37df1789dad6167b4dee11ee22be3dd9",
   "local_installed_dll_sha256": "1851FCAF146B322CAD9AA6A630708C897A071D5BF5E8DD3D7600B690A48915B8",
@@ -11,12 +11,19 @@
   "visual_acceptance": false,
   "next_dependency": "Work through Audit32/ui-todo.csv; obtain licensed game locally for build/live tests.",
   "historical_evidence": "LOCAL_EVIDENCE.md",
-  "latest_curated_update_source_commit": "c614380633eb671dfddd3682b02ded82b538760d",
+  "latest_curated_update_source_commit": "206284055ad5f4d3659de116e54bfc9470ae768f",
   "latest_update_scope": "Real panel pixel crops and combined RimWorld Reframed logo using original wordmark; no reconstructed UI; GIF and runtime unchanged.",
   "showcase_manifest": "../Showcase/manifest.json",
   "initial_hosted_ci": {
     "commit": "275816bb521269879ce5b85774ce3c0724e7a5a6",
     "windows": "success",
     "ubuntu": "success"
+  },
+  "latest_curated_update_scope": "Package and Harmony identity rename; first showcase cursor removal",
+  "identity35": {
+    "package_id": "ninthworld.reframedui",
+    "release_build_passed": true,
+    "pure_contract_projects_passed": 31,
+    "live_game_tested": false
   }
 }

@@ -31,7 +31,7 @@ namespace ReframedUI
                 MethodInfo method = AccessTools.Method(type, name);
                 if (method == null) return false;
                 Patches patches = Harmony.GetPatchInfo(method);
-                if (patches != null && patches.Owners.Any(id => id != "chris.reframedui")) return false;
+                if (patches != null && patches.Owners.Any(id => id != "ninthworld.reframedui")) return false;
             }
             return true;
         }
