@@ -14,6 +14,7 @@ def main():
     parser.add_argument('root',type=Path)
     args=parser.parse_args()
     root=args.root.resolve()
+    showcase=set(json.loads((root/'Tools/showcase-files.json').read_text(encoding='utf-8')))
     manifest=json.loads((root/'SOURCE_SNAPSHOT.json').read_text(encoding='utf-8'))
     errors=[]
     names=set()
@@ -25,9 +26,9 @@ def main():
         if row['path'] in names:
             errors.append(f'Duplicate path: {rel}')
         names.add(row['path'])
-        if rel.suffix.lower() in FORBIDDEN or any(p in {'work','artifacts','bin','obj','.git','node_modules','__pycache__'} for p in rel.parts):
+        if (rel.suffix.lower() in FORBIDDEN and rel.as_posix() not in showcase) or any(p in {'work','artifacts','bin','obj','.git','node_modules','__pycache__'} for p in rel.parts):
             errors.append(f'Forbidden source artifact: {rel}')
-        if rel.parts[0]=='Docs' and rel.suffix.lower() in {'.png','.svg','.jpg','.webp'}:
+        if rel.parts[0]=='Docs' and rel.suffix.lower() in {'.png','.svg','.jpg','.webp','.gif'} and rel.as_posix() not in showcase:
             errors.append(f'Local reference/capture media: {rel}')
         if not path.is_file() or path.is_symlink():
             errors.append(f'Missing/nonregular file: {rel}');continue
@@ -41,7 +42,9 @@ def main():
             if re.search(r'-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----|\bgh[pousr]_[A-Za-z0-9]{30,}|\bAKIA[A-Z0-9]{16}\b',text):
                 errors.append(f'Credential pattern needs review: {rel}')
             if rel.suffix.lower() in {'.md','.html'}:
-                links=re.findall(r'!?\[[^\[\]\r\n]*\]\(([^)\r\n]+)\)',text) if rel.suffix.lower()=='.md' else re.findall(r'(?:href|src)="([^"]+)"',text)
+                links=re.findall(r'(?:href|src)="([^"]+)"',text)
+                if rel.suffix.lower()=='.md':
+                    links+=re.findall(r'!?\[[^\[\]\r\n]*\]\(([^)\r\n]+)\)',text)
                 for url in links:
                     if re.match(r'^(?:https?:|mailto:|#|data:)',url):continue
                     target=unquote(url.split('#')[0])

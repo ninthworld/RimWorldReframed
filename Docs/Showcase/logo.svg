@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="title description">
+  <title id="title">RimWorld Reframed</title>
+  <desc id="description">An original open-frame R emblem beside the Reframed wordmark. A UI overhaul for RimWorld.</desc>
+  <defs>
+    <linearGradient id="panel" x2="1" y2="1">
+      <stop stop-color="#192731"/>
+      <stop offset="1" stop-color="#0b1218"/>
+    </linearGradient>
+    <linearGradient id="metal" x2="0.8" y2="1">
+      <stop stop-color="#f4e6c8"/>
+      <stop offset="1" stop-color="#b99462"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="998" height="238" rx="18" fill="url(#panel)" stroke="#34434e"/>
+  <path d="M32 73V32h42M926 208h42v-41" fill="none" stroke="#667984" stroke-width="2"/>
+  <path d="M71 82V52h91M211 158v30h-91" fill="none" stroke="url(#metal)" stroke-width="7"/>
+  <path d="M85 172V68h47c26 0 40 12 40 32 0 15-8 25-21 30l30 42h-28l-26-38h-18v38zm24-59h22c12 0 18-4 18-13s-6-12-18-12h-22z" fill="#e5edf1"/>
+  <path d="M194 69v65h-20" fill="none" stroke="#7db6c1" stroke-width="7"/>
+  <path d="M245 63v114" stroke="#40505c"/>
+  <text x="285" y="86" fill="#9aaebc" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="6">RIMWORLD</text>
+  <text x="280" y="145" fill="#edf2f5" font-family="Segoe UI,Arial,sans-serif" font-size="57" font-weight="650" letter-spacing="5">REFRAMED</text>
+  <path d="M285 173h32" stroke="#c9ab79" stroke-width="3"/>
+  <text x="331" y="179" fill="#a5bbc8" font-family="Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="4">A UI OVERHAUL</text>
+  <path d="M841 69h86M863 80h64M886 91h41" stroke="#344650" stroke-width="2"/>
+</svg>

@@ -1,7 +1,7 @@
 """Create a fresh source-only publication tree; never mutate the local Git history.
 
-Uses an explicit allowlist. Local evidence, screenshots, logs, native binaries,
-save data and all existing Git objects are deliberately not copied.
+Uses an explicit allowlist. Only the named public showcase media are included;
+other local evidence, logs, native binaries, saves and Git objects stay local.
 """
 from __future__ import annotations
 
@@ -14,6 +14,7 @@ import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+SHOWCASE = set(json.loads((ROOT / 'Tools/showcase-files.json').read_text(encoding='utf-8')))
 TOP_FILES = {
     '.gitattributes', '.gitignore', 'global.json', 'AGENTS.md', 'Build.ps1',
     'README.md', 'README.txt', 'PROJECT.md', 'CONTRIBUTING.md', 'LICENSE',
@@ -51,14 +52,22 @@ See [third-party notices](../../THIRD_PARTY_NOTICES.md).
 The textual specifications and decision/status registers are retained for
 continued development. Their historical observations remain historical. The
 current [audit and TODO list](Audit32/README.md) records the remaining work.
+
+The separately curated [public showcase](../Showcase/README.md) contains the
+user-requested current UI demonstrations. It does not restore the omitted
+historical evidence or concept boards.
 '''
 
 
 def allowed(path: Path) -> bool:
     parts = path.parts
-    if any(part in SKIP_PARTS for part in parts) or path.suffix.lower() in FORBIDDEN:
+    if any(part in SKIP_PARTS for part in parts):
         return False
     name = path.as_posix()
+    if name in SHOWCASE:
+        return True
+    if path.suffix.lower() in FORBIDDEN:
+        return False
     if len(parts) == 1:
         return name in TOP_FILES
     if parts[0] in TREE_EXTENSIONS:
@@ -160,7 +169,8 @@ Update the handoff and execution state at meaningful checkpoints. Edit authorita
     manifest = {'schema': 'github-source-export-v1', 'source_commit': source_head,
                 'source_worktree_dirty': bool(git('status', '--porcelain')), 'version': version,
                 'existing_history_copied': False, 'published': False, 'omitted_local_links_redirected': rewritten,
-                'excluded': ['existing Git history', 'reference artwork/crops', 'game screenshots/logs', 'native implementation/IL extracts', 'machine execution/deployment history', 'game and Harmony binaries', 'save data', 'build outputs and caches'],
+                'showcase_allowlist': sorted(SHOWCASE),
+                'excluded': ['existing Git history', 'reference artwork/crops', 'game screenshots except the named public showcase', 'game logs', 'native implementation/IL extracts', 'machine execution/deployment history', 'game and Harmony binaries', 'save data', 'build outputs and caches'],
                 'files': [{'path': p.as_posix(), 'bytes': (dest / p).stat().st_size, 'sha256': hashlib.sha256((dest / p).read_bytes()).hexdigest()} for p in files]}
     (dest / 'SOURCE_SNAPSHOT.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({'output': str(dest), 'files': len(files), 'bytes': sum(f['bytes'] for f in manifest['files']), 'rewritten_local_links': rewritten, 'published': False}, indent=2))

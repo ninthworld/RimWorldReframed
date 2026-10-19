@@ -1,0 +1,340 @@
+{
+  "schema": "reframed-showcase-v1",
+  "capture_date": "2026-10-19",
+  "mod_version": "0.23.1",
+  "runtime_source_commit": "d5a8099c56e9dc2850875c17c908743fc5d493f4",
+  "dll_sha256": "1851fcaf146b322cad9aa6a630708c897a071d5bf5e8dd3d7600b690a48915b8",
+  "screenshot_dimensions": [
+    2064,
+    1268
+  ],
+  "ui_scale": 1.5,
+  "game_version": "1.6.4871",
+  "platform": "Windows",
+  "method": "JPEG window captures; native end-of-frame PNG sequences for Tools motion; isolated paused test profile; no save written.",
+  "gif": {
+    "path": "tools-motion.gif",
+    "source_dimensions": [
+      2062,
+      1236
+    ],
+    "crop_xyxy": [
+      1540,
+      400,
+      2062,
+      1236
+    ],
+    "dimensions": [
+      522,
+      836
+    ],
+    "raw_frames": 32,
+    "encoded_frames": 13,
+    "duration_ms": 4160,
+    "loop": "infinite",
+    "processing": "Crop, common 256-color palette, GIF encoding, settled-frame holds. No interpolated frames, speed changes or invented UI.",
+    "timing_note": "Transitions use measured sample intervals rounded to 10 ms. Readback affects capture timing; not a performance benchmark.",
+    "sequences": [
+      {
+        "tag": "readme-open-clean",
+        "utc": "2026-10-19T16:39:48.9930743Z",
+        "raw_receipt_sha256": "fbcb9a579562a710fa0800b23ed41ffebe2c1f855d4a29f40c0304e2f794a9d5",
+        "samples": [
+          {
+            "index": 1,
+            "frame": 47875,
+            "elapsed_seconds": 0,
+            "png_sha256": "7a59800c382309ee6874decdc2112bbd658cbbaa6b6b3ec133262a244a1a79ab",
+            "shell_progress": 0.009987571
+          },
+          {
+            "index": 2,
+            "frame": 47883,
+            "elapsed_seconds": 0.0543823242,
+            "png_sha256": "c5fd5ce4f07b18199e7b3c1ea5da1884403e94b5c1b6abd71928428c3cac4e80",
+            "shell_progress": 0.256208926
+          },
+          {
+            "index": 3,
+            "frame": 47891,
+            "elapsed_seconds": 0.109680176,
+            "png_sha256": "cac3b4dc16b7b48f02b9b864e8efe4ac44b9f6141daa32ff5a9ed9c7f5014239",
+            "shell_progress": 0.5077015
+          },
+          {
+            "index": 4,
+            "frame": 47899,
+            "elapsed_seconds": 0.165405273,
+            "png_sha256": "e147783c8373597c17567fa90306c727098981353b66f74a15c5ca6dacdb036b",
+            "shell_progress": 0.760858655
+          },
+          {
+            "index": 5,
+            "frame": 47906,
+            "elapsed_seconds": 0.214996338,
+            "png_sha256": "5a2363da597c9a623809fa7c9e378e8d745dea1b96665d0c4a8f94e6e29a0d9a",
+            "shell_progress": 0.9862726
+          },
+          {
+            "index": 6,
+            "frame": 47914,
+            "elapsed_seconds": 0.269500732,
+            "png_sha256": "81ff4a41ae1b9364039b6c4c15d1b8a3228125edf3b6002613f10a00ed7ed05b",
+            "shell_progress": 1
+          },
+          {
+            "index": 7,
+            "frame": 47922,
+            "elapsed_seconds": 0.3250122,
+            "png_sha256": "81ff4a41ae1b9364039b6c4c15d1b8a3228125edf3b6002613f10a00ed7ed05b",
+            "shell_progress": 1
+          },
+          {
+            "index": 8,
+            "frame": 47929,
+            "elapsed_seconds": 0.374053955,
+            "png_sha256": "81ff4a41ae1b9364039b6c4c15d1b8a3228125edf3b6002613f10a00ed7ed05b",
+            "shell_progress": 1
+          },
+          {
+            "index": 9,
+            "frame": 47937,
+            "elapsed_seconds": 0.430145264,
+            "png_sha256": "81ff4a41ae1b9364039b6c4c15d1b8a3228125edf3b6002613f10a00ed7ed05b",
+            "shell_progress": 1
+          },
+          {
+            "index": 10,
+            "frame": 47945,
+            "elapsed_seconds": 0.485351563,
+            "png_sha256": "81ff4a41ae1b9364039b6c4c15d1b8a3228125edf3b6002613f10a00ed7ed05b",
+            "shell_progress": 1
+          },
+          {
+            "index": 11,
+            "frame": 47952,
+            "elapsed_seconds": 0.5342102,
+            "png_sha256": "81ff4a41ae1b9364039b6c4c15d1b8a3228125edf3b6002613f10a00ed7ed05b",
+            "shell_progress": 1
+          },
+          {
+            "index": 12,
+            "frame": 47960,
+            "elapsed_seconds": 0.589691162,
+            "png_sha256": "81ff4a41ae1b9364039b6c4c15d1b8a3228125edf3b6002613f10a00ed7ed05b",
+            "shell_progress": 1
+          },
+          {
+            "index": 13,
+            "frame": 47968,
+            "elapsed_seconds": 0.645751953,
+            "png_sha256": "81ff4a41ae1b9364039b6c4c15d1b8a3228125edf3b6002613f10a00ed7ed05b",
+            "shell_progress": 1
+          },
+          {
+            "index": 14,
+            "frame": 47975,
+            "elapsed_seconds": 0.6944885,
+            "png_sha256": "81ff4a41ae1b9364039b6c4c15d1b8a3228125edf3b6002613f10a00ed7ed05b",
+            "shell_progress": 1
+          },
+          {
+            "index": 15,
+            "frame": 47983,
+            "elapsed_seconds": 0.75,
+            "png_sha256": "81ff4a41ae1b9364039b6c4c15d1b8a3228125edf3b6002613f10a00ed7ed05b",
+            "shell_progress": 1
+          },
+          {
+            "index": 16,
+            "frame": 47991,
+            "elapsed_seconds": 0.8041992,
+            "png_sha256": "81ff4a41ae1b9364039b6c4c15d1b8a3228125edf3b6002613f10a00ed7ed05b",
+            "shell_progress": 1
+          }
+        ]
+      },
+      {
+        "tag": "readme-close",
+        "utc": "2026-10-19T16:39:33.6493453Z",
+        "raw_receipt_sha256": "8c1a60d8f0ab821e493f61abf412a8401722324ebd0c4a21b274a9a3f666371d",
+        "samples": [
+          {
+            "index": 1,
+            "frame": 46112,
+            "elapsed_seconds": 0,
+            "png_sha256": "4dfdf0a10dfbe5a1c0434655c59ab672ac5f56ec61926e671b7fdda4786eef06",
+            "shell_progress": 0.989318848
+          },
+          {
+            "index": 2,
+            "frame": 46120,
+            "elapsed_seconds": 0.0535888672,
+            "png_sha256": "1b9938da674390b60139bf639a36abb30679a6693c83e8020f811431d112cdde",
+            "shell_progress": 0.7451782
+          },
+          {
+            "index": 3,
+            "frame": 46128,
+            "elapsed_seconds": 0.10925293,
+            "png_sha256": "e5757eb18bf560dce776083bfc1e77e29ce67226a159448eaf7855f2fa4ff4c8",
+            "shell_progress": 0.492298543
+          },
+          {
+            "index": 4,
+            "frame": 46136,
+            "elapsed_seconds": 0.164855957,
+            "png_sha256": "5cba145b2df817aae3872ab02162aff7c8573660ba597bb9d71a82975439b280",
+            "shell_progress": 0.239696249
+          },
+          {
+            "index": 5,
+            "frame": 46143,
+            "elapsed_seconds": 0.2137146,
+            "png_sha256": "7d7cfe3a93c9126c63d8a4eee0a6ea0ebbb68f8a8a30de157ada59b6fa06aedf",
+            "shell_progress": 0.0165017955
+          },
+          {
+            "index": 6,
+            "frame": 46151,
+            "elapsed_seconds": 0.268615723,
+            "png_sha256": "a244d9f4596ae46ac8ebc205379673469087d80b8fdc5463f87fcdb408d30bc6",
+            "shell_progress": 0
+          },
+          {
+            "index": 7,
+            "frame": 46159,
+            "elapsed_seconds": 0.3241272,
+            "png_sha256": "a244d9f4596ae46ac8ebc205379673469087d80b8fdc5463f87fcdb408d30bc6",
+            "shell_progress": 0
+          },
+          {
+            "index": 8,
+            "frame": 46166,
+            "elapsed_seconds": 0.3735962,
+            "png_sha256": "a244d9f4596ae46ac8ebc205379673469087d80b8fdc5463f87fcdb408d30bc6",
+            "shell_progress": 0
+          },
+          {
+            "index": 9,
+            "frame": 46174,
+            "elapsed_seconds": 0.4295349,
+            "png_sha256": "a244d9f4596ae46ac8ebc205379673469087d80b8fdc5463f87fcdb408d30bc6",
+            "shell_progress": 0
+          },
+          {
+            "index": 10,
+            "frame": 46182,
+            "elapsed_seconds": 0.4845276,
+            "png_sha256": "a244d9f4596ae46ac8ebc205379673469087d80b8fdc5463f87fcdb408d30bc6",
+            "shell_progress": 0
+          },
+          {
+            "index": 11,
+            "frame": 46189,
+            "elapsed_seconds": 0.5333557,
+            "png_sha256": "a244d9f4596ae46ac8ebc205379673469087d80b8fdc5463f87fcdb408d30bc6",
+            "shell_progress": 0
+          },
+          {
+            "index": 12,
+            "frame": 46197,
+            "elapsed_seconds": 0.5885315,
+            "png_sha256": "a244d9f4596ae46ac8ebc205379673469087d80b8fdc5463f87fcdb408d30bc6",
+            "shell_progress": 0
+          },
+          {
+            "index": 13,
+            "frame": 46205,
+            "elapsed_seconds": 0.6441345,
+            "png_sha256": "a244d9f4596ae46ac8ebc205379673469087d80b8fdc5463f87fcdb408d30bc6",
+            "shell_progress": 0
+          },
+          {
+            "index": 14,
+            "frame": 46213,
+            "elapsed_seconds": 0.699768066,
+            "png_sha256": "a244d9f4596ae46ac8ebc205379673469087d80b8fdc5463f87fcdb408d30bc6",
+            "shell_progress": 0
+          },
+          {
+            "index": 15,
+            "frame": 46220,
+            "elapsed_seconds": 0.7480774,
+            "png_sha256": "a244d9f4596ae46ac8ebc205379673469087d80b8fdc5463f87fcdb408d30bc6",
+            "shell_progress": 0
+          },
+          {
+            "index": 16,
+            "frame": 46228,
+            "elapsed_seconds": 0.8034973,
+            "png_sha256": "a244d9f4596ae46ac8ebc205379673469087d80b8fdc5463f87fcdb408d30bc6",
+            "shell_progress": 0
+          }
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "path": "logo.svg",
+      "bytes": 1729,
+      "sha256": "f1f8525d88d2752793f9559994bc34a530ce7b907cdaa151b56b16eb6cf595d2",
+      "provenance": "Original authored vector; MIT"
+    },
+    {
+      "path": "main-menu.jpg",
+      "bytes": 375365,
+      "sha256": "af479cc4d48f05a43daaf293c34c67ad3a0c158310305e5b6ef403c6d78df893",
+      "provenance": "Actual game capture; game artwork retains third-party rights"
+    },
+    {
+      "path": "pawn-needs.jpg",
+      "bytes": 323114,
+      "sha256": "41e9df2293df2168b526447b6228dbd2f0d1cf7d4eb0dd0c6d1c4dc4f1eea375",
+      "provenance": "Actual game capture; game artwork retains third-party rights"
+    },
+    {
+      "path": "pawn-overview.jpg",
+      "bytes": 351511,
+      "sha256": "c72de018ba4085021ecc2c36a750b2057b740fabe6e904cdb4a2711478e69e90",
+      "provenance": "Actual game capture; game artwork retains third-party rights"
+    },
+    {
+      "path": "research.jpg",
+      "bytes": 299952,
+      "sha256": "eb593dadb41398e41aa42b3e1139d45b1ae0d05ba25f69fa84e9ef8392605bbd",
+      "provenance": "Actual game capture; game artwork retains third-party rights"
+    },
+    {
+      "path": "schedule.jpg",
+      "bytes": 335206,
+      "sha256": "555fe2b871a9e05853039355512c85f4b616b4145e231876fb795bd8ed336c7e",
+      "provenance": "Actual game capture; game artwork retains third-party rights"
+    },
+    {
+      "path": "storyteller.jpg",
+      "bytes": 372314,
+      "sha256": "c1361b31149f215ff445557fb7ceda0efc2ecfc933a461b7584a6a1e7586dbb5",
+      "provenance": "Actual game capture; game artwork retains third-party rights"
+    },
+    {
+      "path": "tools-motion.gif",
+      "bytes": 476939,
+      "sha256": "4a09574670c4d7c103a1ba8e2dd595a0de65021f15720def9f29745f3099f696",
+      "provenance": "Actual game capture; game artwork retains third-party rights"
+    },
+    {
+      "path": "tools-open.png",
+      "bytes": 358499,
+      "sha256": "6b68c98f7d0d7f771b7b47a1531f80bcee18f4793642adbd9a6a12461dfb4f02",
+      "provenance": "Actual game capture; game artwork retains third-party rights"
+    },
+    {
+      "path": "work.jpg",
+      "bytes": 366713,
+      "sha256": "471a00a86019d93788a00fdb875002771f94bc3b60f0e80a96089ad5668b540e",
+      "provenance": "Actual game capture; game artwork retains third-party rights"
+    }
+  ]
+}

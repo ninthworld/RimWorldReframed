@@ -1,6 +1,8 @@
 # GitHub preparation and source publication boundary
 
-19 October 2026 · AUDIT32 · no remote created and nothing published
+19 October 2026 · AUDIT32 · source published on explicit user request
+
+The public repository is [ninthworld/RimWorldReframed](https://github.com/ninthworld/RimWorldReframed), with default branch `main` rooted in verified source import `275816bb521269879ce5b85774ce3c0724e7a5a6`. Only the separate source export was pushed. The first [Windows/Ubuntu CI run](https://github.com/ninthworld/RimWorldReframed/actions/runs/39284624015) passed on both platforms, verified during the README showcase update on19 October2026; the [original publication receipt — local evidence omitted](LOCAL_EVIDENCE.md) preserves its earlier queued state. The sections below describe the preparation boundary and repeatable export process.
 
 The project is prepared as a source repository for continued development. The existing authoritative installed checkout and its complete local evidence/history are preserved. A separate allowlisted source snapshot is the intended publication input; **do not push all branches/tags or the original `.git` directory** as a substitute for that snapshot.
 
@@ -30,9 +32,11 @@ python -m pip install -r Tools/requirements-docs.txt
 python Tools/prepare-github.py --output work/github-ready/RimWorldReframed
 ```
 
-Use a new empty output directory; the exporter refuses to delete or replace an existing export. It selects source/tests/tools, authored runtime assets, onboarding and curated text docs. It does not copy Git history, reference rasters, gameplay screenshots, game logs, raw native implementation/IL extracts, saves, DLLs or build caches. Source/asset bytes are unchanged. Personal home paths in exported Markdown are replaced with a local-path marker. Missing local evidence links lead to a clear omission notice; no source-fidelity or past acceptance result is fabricated.
+Use a new empty output directory; the exporter refuses to delete or replace an existing export. It selects source/tests/tools, authored runtime assets, onboarding and curated text docs. The user's requested README showcase is a narrow media exception: only files explicitly named in `Tools/showcase-files.json` are included, with [provenance](../Showcase/README.md) and separate game-art attribution. Other gameplay captures, Git history, reference rasters, game logs, raw native implementation/IL extracts, saves, DLLs and build caches stay local. Source/asset bytes are unchanged. Personal home paths in exported Markdown are replaced with a local-path marker. Missing local evidence links lead to a clear omission notice; no source-fidelity or past acceptance result is fabricated.
 
 `SOURCE_SNAPSHOT.json` records the input commit, dirty-state flag, exclusions and a hash for every exported file. `HANDOFF.md`, execution state and contributor instructions become portable source-workspace records. Local source evidence remains authoritative here; after work begins in the publication repository, deliberately choose an integration workflow rather than independently editing two copies.
+
+For deliberate updates to the existing public source checkout, refresh hashes for the curated changed/new files and record the update's source commit in a `revisions` entry. Preserve the original import commit and historical preparation flags. The manifest verifies the current curated file set; its `published: false` records the export's original preparation state, not the current GitHub visibility. Keep the public Git history rooted in its source import.
 
 The source-only illustrated report is rebuilt with `--source-only`, reporting **zero reference images verified**. The local illustrated report continues verifying the preserved original image hashes. Reference/pixel/font fixture tests still require local evidence and are outside pure CI. The source snapshot can build/test without downloading concept art.
 
@@ -44,7 +48,7 @@ pwsh -File Tools/Test.ps1
 .\Build.ps1 -RimWorldDir 'C:\Games\RimWorld' -OutputDir '.\work\private-build'
 ```
 
-The exporter produces files only. For this preparation the integrator then initializes the final snapshot as a separate local Git repository on `main`, verifies it and creates an initial import commit; no remote is configured. When repeating the export, perform that initialization explicitly after verification. Its initial commit is a source import, not the original private evidence history. A later publishing request can add the chosen GitHub remote and push this repository. Do not use `git push --mirror` from the installed checkout.
+The exporter produces files only. For this preparation the integrator initialized the final snapshot as a separate local Git repository on `main`, verified it and created an initial import commit. The user subsequently authorized public publication; `origin` now points to `https://github.com/ninthworld/RimWorldReframed.git` in that separate repository. When repeating the export, perform initialization explicitly after verification and reconcile later source changes deliberately. Its initial commit is a source import, not the original private evidence history. Do not use `git push --mirror` from the installed checkout.
 
 ## Runtime package boundary
 
@@ -58,4 +62,4 @@ The package includes `About`, `Defs`, `Patches`, `Textures`, the explicitly supp
 
 ## Validation and remaining gates
 
-Exact local results are in [Audit32/verification.json](Audit32/verification.json). The installed DLL stays byte-identical through this preparation. Pure checks establish their stated policy/geometry contracts; private compilation establishes buildability with the locally installed game. Neither establishes complete UI/gameplay compatibility, visual fidelity or a hosted CI run. All previous acceptance gates remain open. The only unperformed external step is choosing/creating a GitHub remote and publishing, which was not requested.
+Exact local results are in [Audit32/verification.json](Audit32/verification.json). The installed DLL stays byte-identical through preparation and publication. Pure checks establish their stated policy/geometry contracts; private compilation establishes buildability with the locally installed game. Neither establishes complete UI/gameplay compatibility or visual fidelity. All previous acceptance gates remain open. Repository creation/source push and the initial hosted Windows/Ubuntu pure-test run are verified.

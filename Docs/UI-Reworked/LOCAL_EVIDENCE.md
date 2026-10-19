@@ -14,3 +14,7 @@ See [third-party notices](../../THIRD_PARTY_NOTICES.md).
 The textual specifications and decision/status registers are retained for
 continued development. Their historical observations remain historical. The
 current [audit and TODO list](Audit32/README.md) records the remaining work.
+
+The separately curated [public showcase](../Showcase/README.md) contains the
+user-requested current UI demonstrations. It does not restore the omitted
+historical evidence or concept boards.

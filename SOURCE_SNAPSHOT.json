@@ -9,18 +9,19 @@
   "excluded": [
     "existing Git history",
     "reference artwork/crops",
-    "game screenshots/logs",
     "native implementation/IL extracts",
     "machine execution/deployment history",
     "game and Harmony binaries",
     "save data",
-    "build outputs and caches"
+    "build outputs and caches",
+    "game screenshots except the named public showcase",
+    "game logs"
   ],
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 218,
-      "sha256": "1927a7c28fd402af0e99c40865277b3a1d416839a7ec9f17d328a8e69840e6ba"
+      "bytes": 263,
+      "sha256": "ec9784f69c5587d99c6844480a4fc485555f143794026948e77543a245f63a41"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/ui-gap.yml",
@@ -43,14 +44,14 @@
       "sha256": "f86866ec2e2b979c7f1153fb50c402b926a1c4104ffba0cd7a2f7e5261424352"
     },
     {
-      "path": "About/About.xml",
-      "bytes": 1230,
-      "sha256": "4855ccc5e9183b9a3d35b4e7e0b131f25124753604371690a93f3183129c3a9b"
-    },
-    {
       "path": "AGENTS.md",
       "bytes": 1278,
       "sha256": "db6083b9198c5e3393352b4c2367e3513f67d7d7e893e247f42b289febfd580b"
+    },
+    {
+      "path": "About/About.xml",
+      "bytes": 1230,
+      "sha256": "4855ccc5e9183b9a3d35b4e7e0b131f25124753604371690a93f3183129c3a9b"
     },
     {
       "path": "Assets/Dock/Animals.svg",
@@ -543,6 +544,66 @@
       "sha256": "58673346ca256742cc09d7d419728cafb0200af944079b27267edfb20ec9f9b0"
     },
     {
+      "path": "Docs/Showcase/README.md",
+      "bytes": 2628,
+      "sha256": "3261db1aade8958f0e63a3ba9b40860cdd083a36e1bcd0628f6c54a68b515b7f"
+    },
+    {
+      "path": "Docs/Showcase/logo.svg",
+      "bytes": 1729,
+      "sha256": "f1f8525d88d2752793f9559994bc34a530ce7b907cdaa151b56b16eb6cf595d2"
+    },
+    {
+      "path": "Docs/Showcase/main-menu.jpg",
+      "bytes": 375365,
+      "sha256": "af479cc4d48f05a43daaf293c34c67ad3a0c158310305e5b6ef403c6d78df893"
+    },
+    {
+      "path": "Docs/Showcase/manifest.json",
+      "bytes": 11882,
+      "sha256": "cbb2c7400e1285e2d493fcd3c72d1e2868bd0651e6d5119e714249ff6d21db2d"
+    },
+    {
+      "path": "Docs/Showcase/pawn-needs.jpg",
+      "bytes": 323114,
+      "sha256": "41e9df2293df2168b526447b6228dbd2f0d1cf7d4eb0dd0c6d1c4dc4f1eea375"
+    },
+    {
+      "path": "Docs/Showcase/pawn-overview.jpg",
+      "bytes": 351511,
+      "sha256": "c72de018ba4085021ecc2c36a750b2057b740fabe6e904cdb4a2711478e69e90"
+    },
+    {
+      "path": "Docs/Showcase/research.jpg",
+      "bytes": 299952,
+      "sha256": "eb593dadb41398e41aa42b3e1139d45b1ae0d05ba25f69fa84e9ef8392605bbd"
+    },
+    {
+      "path": "Docs/Showcase/schedule.jpg",
+      "bytes": 335206,
+      "sha256": "555fe2b871a9e05853039355512c85f4b616b4145e231876fb795bd8ed336c7e"
+    },
+    {
+      "path": "Docs/Showcase/storyteller.jpg",
+      "bytes": 372314,
+      "sha256": "c1361b31149f215ff445557fb7ceda0efc2ecfc933a461b7584a6a1e7586dbb5"
+    },
+    {
+      "path": "Docs/Showcase/tools-motion.gif",
+      "bytes": 476939,
+      "sha256": "4a09574670c4d7c103a1ba8e2dd595a0de65021f15720def9f29745f3099f696"
+    },
+    {
+      "path": "Docs/Showcase/tools-open.png",
+      "bytes": 358499,
+      "sha256": "6b68c98f7d0d7f771b7b47a1531f80bcee18f4793642adbd9a6a12461dfb4f02"
+    },
+    {
+      "path": "Docs/Showcase/work.jpg",
+      "bytes": 366713,
+      "sha256": "471a00a86019d93788a00fdb875002771f94bc3b60f0e80a96089ad5668b540e"
+    },
+    {
       "path": "Docs/UI-Reworked/01-design-specification.md",
       "bytes": 52923,
       "sha256": "8f5a54f92ce8d4f657f1bbfc7e421aca43ed647ed1483b81f1ed078d24729de5"
@@ -574,8 +635,13 @@
     },
     {
       "path": "Docs/UI-Reworked/07-github-readiness.md",
-      "bytes": 5992,
-      "sha256": "cbc4a60701e0e3e4ac03b407adfebc285dbd953a5751124d48de481f73032477"
+      "bytes": 7380,
+      "sha256": "83b140a32a9acaf164931650719c8e8ad6dc95d6ea4ed697637e2218ee01a5c6"
+    },
+    {
+      "path": "Docs/UI-Reworked/Audit32/README.md",
+      "bytes": 8954,
+      "sha256": "ebcf8c08481382c68dc08810a95e462be356a2ef56682381dc942e7ff9fbbd15"
     },
     {
       "path": "Docs/UI-Reworked/Audit32/coverage-rules.json",
@@ -603,11 +669,6 @@
       "sha256": "0bd63c5bab56380a02f9adb9470383a3b58d340339ff8d8444f11fbe348aa845"
     },
     {
-      "path": "Docs/UI-Reworked/Audit32/README.md",
-      "bytes": 8954,
-      "sha256": "ebcf8c08481382c68dc08810a95e462be356a2ef56682381dc942e7ff9fbbd15"
-    },
-    {
       "path": "Docs/UI-Reworked/Audit32/ui-todo.csv",
       "bytes": 24267,
       "sha256": "f7854fb4281b826faf00a7a1110d108ae132c8d49c9cf5adf296f445a4ffeeef"
@@ -618,49 +679,14 @@
       "sha256": "1611087a04a90f8763836f689b958f9196fa1e40435fe3a86a04f669d65cde42"
     },
     {
-      "path": "Docs/UI-Reworked/decision-log.md",
-      "bytes": 50460,
-      "sha256": "99303edeac7407e1af181e8368f0b9a4662e052aa48815ab918927f6c85ede34"
-    },
-    {
-      "path": "Docs/UI-Reworked/execution-state.json",
-      "bytes": 579,
-      "sha256": "5124cb3fa3c843fac4fad35e825910db2cfeab2550a9a13552a1418dfd1679e4"
-    },
-    {
-      "path": "Docs/UI-Reworked/foundation-register.csv",
-      "bytes": 1049,
-      "sha256": "b2152b3cdc54edfbca4f076941ec70fd2772e2a2bbc493c780b78692449db948"
-    },
-    {
       "path": "Docs/UI-Reworked/HANDOFF.md",
-      "bytes": 807,
-      "sha256": "ae68719add63e92535da09b2213711f531d6d9b293a4e592099d0faa331f2bda"
-    },
-    {
-      "path": "Docs/UI-Reworked/index.html",
-      "bytes": 200950,
-      "sha256": "3853e0524f9040dadae3773d5c71f231300c6ad25b209fc47d4d29518831adcf"
-    },
-    {
-      "path": "Docs/UI-Reworked/inference-register.csv",
-      "bytes": 31725,
-      "sha256": "3ec5d538e94a905407ea360345b7353040eba2a88b39eaa18aef65a7a6eb1dd8"
+      "bytes": 1418,
+      "sha256": "b7ad067b580a69dfd9e39f744c5e963a4000eaf2f845e92d06bdd9dbb18413d6"
     },
     {
       "path": "Docs/UI-Reworked/LOCAL_EVIDENCE.md",
-      "bytes": 980,
-      "sha256": "1009202f35ec59d5b8694f8042f1dbb2ac5b65745bcbed3bc694cc852659d00b"
-    },
-    {
-      "path": "Docs/UI-Reworked/package-validation.json",
-      "bytes": 603,
-      "sha256": "bab8d050073549cc45a00b7ff2084e1f33203439c4499420526378f2efd46830"
-    },
-    {
-      "path": "Docs/UI-Reworked/project-register.csv",
-      "bytes": 29840,
-      "sha256": "2a2eec8285e85dbb0ac5ba35717f78c4cc890467289d1ba9ca25a878e3005900"
+      "bytes": 1171,
+      "sha256": "08f159041b735218ef70c2739f40da7c3c6f4a4e52086d6bb2e22772218505c8"
     },
     {
       "path": "Docs/UI-Reworked/README.md",
@@ -668,14 +694,44 @@
       "sha256": "a1315a24e035c97524a257869ddfc8849a35cbc4d91de89c15aa12eb66ccc7cd"
     },
     {
+      "path": "Docs/UI-Reworked/decision-log.md",
+      "bytes": 50460,
+      "sha256": "99303edeac7407e1af181e8368f0b9a4662e052aa48815ab918927f6c85ede34"
+    },
+    {
+      "path": "Docs/UI-Reworked/execution-state.json",
+      "bytes": 992,
+      "sha256": "74379961adb039b08a36a8f8f53596e83b6bb545a53a434e9d9045cd6b26e09e"
+    },
+    {
+      "path": "Docs/UI-Reworked/foundation-register.csv",
+      "bytes": 1049,
+      "sha256": "b2152b3cdc54edfbca4f076941ec70fd2772e2a2bbc493c780b78692449db948"
+    },
+    {
+      "path": "Docs/UI-Reworked/index.html",
+      "bytes": 202477,
+      "sha256": "12c454e5f4f928500ea743d088271547438df0841078db901d60c37d22f95f7b"
+    },
+    {
+      "path": "Docs/UI-Reworked/inference-register.csv",
+      "bytes": 31725,
+      "sha256": "3ec5d538e94a905407ea360345b7353040eba2a88b39eaa18aef65a7a6eb1dd8"
+    },
+    {
+      "path": "Docs/UI-Reworked/package-validation.json",
+      "bytes": 603,
+      "sha256": "76bb682045a5ff2b1e2d2a4a5e593614f0dc04c235cdf5a1a12ce2434f10e1ba"
+    },
+    {
+      "path": "Docs/UI-Reworked/project-register.csv",
+      "bytes": 29840,
+      "sha256": "2a2eec8285e85dbb0ac5ba35717f78c4cc890467289d1ba9ca25a878e3005900"
+    },
+    {
       "path": "Docs/UI-Reworked/visual-completion.md",
       "bytes": 25565,
       "sha256": "7d5387b724745d318757e79681fa6454cd3779c5f7ae32ba963cafaac0a54e69"
-    },
-    {
-      "path": "global.json",
-      "bytes": 111,
-      "sha256": "20c93ca7812d0a9825eef71217156f95ab2f4fe5aadfeb22ebc1c24b630018d3"
     },
     {
       "path": "LICENSE",
@@ -683,19 +739,19 @@
       "sha256": "a27c01796afb08e07b48cfb0a9f3f2cd95073eaf16c3df10a710a54ea356289c"
     },
     {
-      "path": "Patches/KeyBindings.xml",
-      "bytes": 776,
-      "sha256": "d9b0067f997cb2699c78d4150f88e075e13b1a8a50e1c2b406824bb4f63c9436"
-    },
-    {
       "path": "PROJECT.md",
       "bytes": 1656,
       "sha256": "26830c0f9ba318d9469361d86f4a600cae4251ffd6ad30170d7cc5449b50c3a1"
     },
     {
+      "path": "Patches/KeyBindings.xml",
+      "bytes": 776,
+      "sha256": "d9b0067f997cb2699c78d4150f88e075e13b1a8a50e1c2b406824bb4f63c9436"
+    },
+    {
       "path": "README.md",
-      "bytes": 3771,
-      "sha256": "ae7b97de4ca4bb0a2a902837c6f8235f47e71aec5a9779d22a9fd1939bee77ac"
+      "bytes": 8551,
+      "sha256": "e177a1405394509684e65c3828d65e484c4f042e2b31e5ddbdb667c3ba5dccf9"
     },
     {
       "path": "README.txt",
@@ -1513,6 +1569,11 @@
       "sha256": "a81f1ec20cbb239e6f9b9bd65d765b4e99f45a673da228ebe0f28d873b730a46"
     },
     {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 4380,
+      "sha256": "34092a890100a9022068b91480db88e8f20967c71ce6b7157ad916f07a1b3607"
+    },
+    {
       "path": "Tests/BottomMenuContracts/BottomMenuContracts.csproj",
       "bytes": 335,
       "sha256": "de57f1b7b08ccf7de8a5cf74fccbe7343801ef4d816d850498c69e1f9f2ffe81"
@@ -1613,19 +1674,9 @@
       "sha256": "4cace65fec990aee9d5f463f7869c34224bc8b8342a6d4123db5886d88e6992c"
     },
     {
-      "path": "Tests/Fixtures/generate_visual.py",
-      "bytes": 2539,
-      "sha256": "f4a75d2a0830eb8dfaef7d3a408e0ced88bf3e0dc54cfb55dba091c27fa71fda"
-    },
-    {
       "path": "Tests/Fixtures/Input/exactly-once.json",
       "bytes": 450,
       "sha256": "edead2a8bbd4067a79a817bb1eeffa7d51e6e3a15d020034273eab69470d91ec"
-    },
-    {
-      "path": "Tests/Fixtures/test_button_seams.py",
-      "bytes": 3976,
-      "sha256": "1659fe5c6ddd1c14aaa38788469c09abcbdc7a5067218e6ffbdc65369b18865c"
     },
     {
       "path": "Tests/Fixtures/Visual/absent-icon.png",
@@ -1676,6 +1727,16 @@
       "path": "Tests/Fixtures/Visual/text-mask.png",
       "bytes": 81,
       "sha256": "497096de2bdedc4cbeab4eef3759a1dddbeefebfd58308e8f16d108c345877e5"
+    },
+    {
+      "path": "Tests/Fixtures/generate_visual.py",
+      "bytes": 2539,
+      "sha256": "f4a75d2a0830eb8dfaef7d3a408e0ced88bf3e0dc54cfb55dba091c27fa71fda"
+    },
+    {
+      "path": "Tests/Fixtures/test_button_seams.py",
+      "bytes": 3976,
+      "sha256": "1659fe5c6ddd1c14aaa38788469c09abcbdc7a5067218e6ffbdc65369b18865c"
     },
     {
       "path": "Tests/HudContracts/HudContracts.csproj",
@@ -2638,9 +2699,24 @@
       "sha256": "71035096eadfa7274d568cfa36cb47efe87f2f566a4aaffe04f1a0a83e780969"
     },
     {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 3751,
-      "sha256": "14efe711cc60ef576f9d15c2597e4e3b35c1df537284b7f51730e054411304f3"
+      "path": "Tools/Test.ps1",
+      "bytes": 2854,
+      "sha256": "98cb727b1bf30d27cbf567d020adb9a1603da72c21f2d19ef42916831fbd1961"
+    },
+    {
+      "path": "Tools/UIInventory/Program.cs",
+      "bytes": 13646,
+      "sha256": "1ad8a5114550acc93c13a6e42f9fb5aa119267d06e0e259ae84ad5a9fe95ec5e"
+    },
+    {
+      "path": "Tools/UIInventory/README.md",
+      "bytes": 3424,
+      "sha256": "9e6e796578f59431086d235dc8364797ab3ed0fd5845899003d4f16945979784"
+    },
+    {
+      "path": "Tools/UIInventory/UIInventory.csproj",
+      "bytes": 285,
+      "sha256": "2060eca9434d670e999d56d4a44a8f6f4ebc01b629771c45c934a47e06bb9164"
     },
     {
       "path": "Tools/build-specification.py",
@@ -2694,8 +2770,8 @@
     },
     {
       "path": "Tools/prepare-github.py",
-      "bytes": 11015,
-      "sha256": "568c290ced1ecde30f7bd2a1f9be0b162e2e4ff223db16f2b20c8d248a307078"
+      "bytes": 11477,
+      "sha256": "d733e0cc34d9f1ea4b36b8bcdec0b8776b26aab5fc0acfabec62224d1377dc77"
     },
     {
       "path": "Tools/pure-tests.json",
@@ -2723,9 +2799,9 @@
       "sha256": "10092970ae4227deaa844717477dc1ac6607876a27eefd02b93e3ef90707cc2b"
     },
     {
-      "path": "Tools/Test.ps1",
-      "bytes": 2854,
-      "sha256": "98cb727b1bf30d27cbf567d020adb9a1603da72c21f2d19ef42916831fbd1961"
+      "path": "Tools/showcase-files.json",
+      "bytes": 394,
+      "sha256": "07003b4fb101d2b3be18722627abc590618647fdd9e6b2d5ef6da7c6835253fc"
     },
     {
       "path": "Tools/test_foundation_run.py",
@@ -2743,34 +2819,71 @@
       "sha256": "f61711a87ad67ac7ee2f196d7b60e1c8dcef2c4bc7e95c0308b64aaed0026419"
     },
     {
-      "path": "Tools/UIInventory/Program.cs",
-      "bytes": 13646,
-      "sha256": "1ad8a5114550acc93c13a6e42f9fb5aa119267d06e0e259ae84ad5a9fe95ec5e"
-    },
-    {
-      "path": "Tools/UIInventory/README.md",
-      "bytes": 3424,
-      "sha256": "9e6e796578f59431086d235dc8364797ab3ed0fd5845899003d4f16945979784"
-    },
-    {
-      "path": "Tools/UIInventory/UIInventory.csproj",
-      "bytes": 285,
-      "sha256": "2060eca9434d670e999d56d4a44a8f6f4ebc01b629771c45c934a47e06bb9164"
-    },
-    {
       "path": "Tools/validate_foundation_run.py",
       "bytes": 32054,
       "sha256": "ef4317931cbd9d67b3b741d947351f406caa9ad41fd71c5719306bdb3e5cab6a"
     },
     {
       "path": "Tools/verify-source-snapshot.py",
-      "bytes": 3618,
-      "sha256": "30652166ce39d027a3735522dbf7678d8c0ac788cd8715a1180f5b70df3d8408"
+      "bytes": 3829,
+      "sha256": "a518879e9aa4ea6ff3cabc80a2eaddea8c7401610b9f13aa5172eb4270f3fd06"
     },
     {
       "path": "Tools/visual_compare.py",
       "bytes": 19123,
       "sha256": "6b6306e375ed9bc1c33e3faf0f3ea60087a74ae3e31e8b2d8ffb0096a630ad66"
+    },
+    {
+      "path": "global.json",
+      "bytes": 111,
+      "sha256": "20c93ca7812d0a9825eef71217156f95ab2f4fe5aadfeb22ebc1c24b630018d3"
+    }
+  ],
+  "showcase_allowlist": [
+    "Docs/Showcase/README.md",
+    "Docs/Showcase/manifest.json",
+    "Docs/Showcase/logo.svg",
+    "Docs/Showcase/main-menu.jpg",
+    "Docs/Showcase/storyteller.jpg",
+    "Docs/Showcase/pawn-overview.jpg",
+    "Docs/Showcase/pawn-needs.jpg",
+    "Docs/Showcase/work.jpg",
+    "Docs/Showcase/schedule.jpg",
+    "Docs/Showcase/research.jpg",
+    "Docs/Showcase/tools-motion.gif",
+    "Docs/Showcase/tools-open.png"
+  ],
+  "revisions": [
+    {
+      "date": "2026-10-19",
+      "source_commit": "1d8e94e0b05938e0348d4984b124c448d39166b8",
+      "scope": "Visual README, original logo, actual UI screenshots/Tools GIF, provenance and explicit export allowlist. No runtime change.",
+      "changed_files": [
+        ".gitattributes",
+        "Docs/Showcase/README.md",
+        "Docs/Showcase/logo.svg",
+        "Docs/Showcase/main-menu.jpg",
+        "Docs/Showcase/manifest.json",
+        "Docs/Showcase/pawn-needs.jpg",
+        "Docs/Showcase/pawn-overview.jpg",
+        "Docs/Showcase/research.jpg",
+        "Docs/Showcase/schedule.jpg",
+        "Docs/Showcase/storyteller.jpg",
+        "Docs/Showcase/tools-motion.gif",
+        "Docs/Showcase/tools-open.png",
+        "Docs/Showcase/work.jpg",
+        "Docs/UI-Reworked/07-github-readiness.md",
+        "Docs/UI-Reworked/HANDOFF.md",
+        "Docs/UI-Reworked/LOCAL_EVIDENCE.md",
+        "Docs/UI-Reworked/execution-state.json",
+        "Docs/UI-Reworked/index.html",
+        "Docs/UI-Reworked/package-validation.json",
+        "README.md",
+        "THIRD_PARTY_NOTICES.md",
+        "Tools/prepare-github.py",
+        "Tools/showcase-files.json",
+        "Tools/verify-source-snapshot.py"
+      ]
     }
   ]
 }

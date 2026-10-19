@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_date": "2026-10-19",
-  "phase": "source_snapshot_ready_for_development",
+  "phase": "source_development_with_readme_showcase",
   "version": "0.23.1",
   "source_repository_commit": "176b194a37df1789dad6167b4dee11ee22be3dd9",
   "local_installed_dll_sha256": "1851FCAF146B322CAD9AA6A630708C897A071D5BF5E8DD3D7600B690A48915B8",
@@ -10,5 +10,13 @@
   "active_orders": [],
   "visual_acceptance": false,
   "next_dependency": "Work through Audit32/ui-todo.csv; obtain licensed game locally for build/live tests.",
-  "historical_evidence": "LOCAL_EVIDENCE.md"
+  "historical_evidence": "LOCAL_EVIDENCE.md",
+  "latest_curated_update_source_commit": "1d8e94e0b05938e0348d4984b124c448d39166b8",
+  "latest_update_scope": "README/logo/seven screenshots/real Tools motion GIF and explicit showcase provenance/export allowlist; runtime unchanged.",
+  "showcase_manifest": "../Showcase/manifest.json",
+  "initial_hosted_ci": {
+    "commit": "275816bb521269879ce5b85774ce3c0724e7a5a6",
+    "windows": "success",
+    "ubuntu": "success"
+  }
 }

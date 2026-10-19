@@ -20,4 +20,8 @@ RimWorld and its game artwork, fonts, assemblies and other content belong to the
 - `Microsoft.NETFramework.ReferenceAssemblies.net472` 1.0.3 is a compile-time NuGet dependency; restored package contents remain under their own package terms and are not committed or packaged.
 - Developer-only tools use markdown2, Pillow and sharp under their respective upstream licenses. Their packages are not vendored or shipped in the mod. Installing a tool dependency does not change the rights of the media processed by that tool.
 
-See [source/package policy](Docs/UI-Reworked/07-github-readiness.md) for exclusions. Preserve this notice and MIT license with original project distributions. No public upload or release has been performed by preparing these files.
+## Public showcase
+
+At the user's request, the public README includes the explicitly selected screenshots and Tools animation under `Docs/Showcase`. These are actual in-game demonstrations, with capture provenance and hashes recorded in that directory. They are a narrow exception to the source export's default exclusion of local gameplay captures; they do not include concept boards, logs, saves or extracted game artwork. Game content visible in these captures retains its owners' rights and is not covered by the project's MIT grant. The original `Docs/Showcase/logo.svg` is MIT-licensed project artwork.
+
+See [source/package policy](Docs/UI-Reworked/07-github-readiness.md) for exclusions. Preserve this notice and MIT license with original project distributions. The source repository is public; the showcase is documentation, not a compiled mod release.
