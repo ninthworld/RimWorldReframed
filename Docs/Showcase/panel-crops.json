@@ -1,0 +1,91 @@
+{
+  "schema": "actual-ui-panel-crops-v1",
+  "panels": [
+    {
+      "path": "pawn-panel.png",
+      "source": "pawn-overview.jpg",
+      "source_sha256": "c72de018ba4085021ecc2c36a750b2057b740fabe6e904cdb4a2711478e69e90",
+      "crop_boxes_xyxy": [
+        [
+          13,
+          856,
+          853,
+          1206
+        ]
+      ],
+      "output_size": [
+        872,
+        382
+      ],
+      "processing": "Exact RGB pixel crops, 8px rounded outside-corner alpha mask, transparent padding. Work panels stacked. No retouching, recoloring, rescaling, generated content or reconstructed controls.",
+      "bytes": 181519,
+      "sha256": "f3f81514a863b498b876a64849fc5f2086e0e8895e34459ba5d91781389f6bf5"
+    },
+    {
+      "path": "work-panels.png",
+      "source": "work.jpg",
+      "source_sha256": "471a00a86019d93788a00fdb875002771f94bc3b60f0e80a96089ad5668b540e",
+      "crop_boxes_xyxy": [
+        [
+          182,
+          734,
+          1170,
+          1003
+        ],
+        [
+          13,
+          1011,
+          1184,
+          1204
+        ]
+      ],
+      "output_size": [
+        1203,
+        510
+      ],
+      "processing": "Exact RGB pixel crops, 8px rounded outside-corner alpha mask, transparent padding. Work panels stacked. No retouching, recoloring, rescaling, generated content or reconstructed controls.",
+      "bytes": 404526,
+      "sha256": "766cacd38797ee5770ee4391f0585d7d0bfdba6afe3c3519098a4ae21247ae08"
+    },
+    {
+      "path": "schedule-panel.png",
+      "source": "schedule.jpg",
+      "source_sha256": "555fe2b871a9e05853039355512c85f4b616b4145e231876fb795bd8ed336c7e",
+      "crop_boxes_xyxy": [
+        [
+          13,
+          832,
+          1184,
+          1204
+        ]
+      ],
+      "output_size": [
+        1203,
+        404
+      ],
+      "processing": "Exact RGB pixel crops, 8px rounded outside-corner alpha mask, transparent padding. Work panels stacked. No retouching, recoloring, rescaling, generated content or reconstructed controls.",
+      "bytes": 162505,
+      "sha256": "dddcd3802170a2cf47588baed3ec1c005ea6a5db416149f3b0928d50e3fea0f9"
+    },
+    {
+      "path": "research-panel.png",
+      "source": "research.jpg",
+      "source_sha256": "eb593dadb41398e41aa42b3e1139d45b1ae0d05ba25f69fa84e9ef8392605bbd",
+      "crop_boxes_xyxy": [
+        [
+          13,
+          424,
+          1363,
+          1204
+        ]
+      ],
+      "output_size": [
+        1382,
+        812
+      ],
+      "processing": "Exact RGB pixel crops, 8px rounded outside-corner alpha mask, transparent padding. Work panels stacked. No retouching, recoloring, rescaling, generated content or reconstructed controls.",
+      "bytes": 366983,
+      "sha256": "a8151400684ad3ed9e4a99f34846c1f6d036f91f87476f72a19adfb0b2e5bde5"
+    }
+  ]
+}

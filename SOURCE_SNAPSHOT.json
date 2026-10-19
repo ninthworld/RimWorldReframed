@@ -545,13 +545,8 @@
     },
     {
       "path": "Docs/Showcase/README.md",
-      "bytes": 2628,
-      "sha256": "3261db1aade8958f0e63a3ba9b40860cdd083a36e1bcd0628f6c54a68b515b7f"
-    },
-    {
-      "path": "Docs/Showcase/logo.svg",
-      "bytes": 1729,
-      "sha256": "f1f8525d88d2752793f9559994bc34a530ce7b907cdaa151b56b16eb6cf595d2"
+      "bytes": 4085,
+      "sha256": "d6b4255e3b9942976e61d8b817f90ed283ed75e4517c103771cfc7bfdd6f8dfe"
     },
     {
       "path": "Docs/Showcase/main-menu.jpg",
@@ -560,8 +555,13 @@
     },
     {
       "path": "Docs/Showcase/manifest.json",
-      "bytes": 11882,
-      "sha256": "cbb2c7400e1285e2d493fcd3c72d1e2868bd0651e6d5119e714249ff6d21db2d"
+      "bytes": 13703,
+      "sha256": "9a1835810251fb216c484e1da9fbd6839c108f86d33acb758b33525bd08e0667"
+    },
+    {
+      "path": "Docs/Showcase/panel-crops.json",
+      "bytes": 2784,
+      "sha256": "77c80fe41ea01f1ab88109d3a0256dd3a211a978b8991e513fa69c00e52ca727"
     },
     {
       "path": "Docs/Showcase/pawn-needs.jpg",
@@ -574,9 +574,39 @@
       "sha256": "c72de018ba4085021ecc2c36a750b2057b740fabe6e904cdb4a2711478e69e90"
     },
     {
+      "path": "Docs/Showcase/pawn-panel.png",
+      "bytes": 181519,
+      "sha256": "f3f81514a863b498b876a64849fc5f2086e0e8895e34459ba5d91781389f6bf5"
+    },
+    {
+      "path": "Docs/Showcase/reframed-logo.png",
+      "bytes": 65671,
+      "sha256": "498bd0bc6487e37b3b1c22e09285c6bb34ac83532c99c00bcd589688360067db"
+    },
+    {
+      "path": "Docs/Showcase/reframed-logo.svg",
+      "bytes": 46955,
+      "sha256": "44060721ff70b22a04987933483f9d2f8e5827829181040dc7cc5b77a1e070f5"
+    },
+    {
+      "path": "Docs/Showcase/research-panel.png",
+      "bytes": 366983,
+      "sha256": "a8151400684ad3ed9e4a99f34846c1f6d036f91f87476f72a19adfb0b2e5bde5"
+    },
+    {
       "path": "Docs/Showcase/research.jpg",
       "bytes": 299952,
       "sha256": "eb593dadb41398e41aa42b3e1139d45b1ae0d05ba25f69fa84e9ef8392605bbd"
+    },
+    {
+      "path": "Docs/Showcase/rimworld-logo.png",
+      "bytes": 34550,
+      "sha256": "9248bcb8e534f929a286d76b7a4ffe3fdcb53fe121fd7e168173cd1c1dfaeea2"
+    },
+    {
+      "path": "Docs/Showcase/schedule-panel.png",
+      "bytes": 162505,
+      "sha256": "dddcd3802170a2cf47588baed3ec1c005ea6a5db416149f3b0928d50e3fea0f9"
     },
     {
       "path": "Docs/Showcase/schedule.jpg",
@@ -597,6 +627,11 @@
       "path": "Docs/Showcase/tools-open.png",
       "bytes": 358499,
       "sha256": "6b68c98f7d0d7f771b7b47a1531f80bcee18f4793642adbd9a6a12461dfb4f02"
+    },
+    {
+      "path": "Docs/Showcase/work-panels.png",
+      "bytes": 404526,
+      "sha256": "766cacd38797ee5770ee4391f0585d7d0bfdba6afe3c3519098a4ae21247ae08"
     },
     {
       "path": "Docs/Showcase/work.jpg",
@@ -635,8 +670,8 @@
     },
     {
       "path": "Docs/UI-Reworked/07-github-readiness.md",
-      "bytes": 7380,
-      "sha256": "83b140a32a9acaf164931650719c8e8ad6dc95d6ea4ed697637e2218ee01a5c6"
+      "bytes": 7532,
+      "sha256": "ea9089594fa33c3a3198e29d05de11f972066e9f8abdb4e0b79fd4d6f205d762"
     },
     {
       "path": "Docs/UI-Reworked/Audit32/README.md",
@@ -680,8 +715,8 @@
     },
     {
       "path": "Docs/UI-Reworked/HANDOFF.md",
-      "bytes": 1418,
-      "sha256": "b7ad067b580a69dfd9e39f744c5e963a4000eaf2f845e92d06bdd9dbb18413d6"
+      "bytes": 1953,
+      "sha256": "c0dadcb2009210a6a5be1dfc89696e3cf27b1ecf33a838ce328d83218c4c3e13"
     },
     {
       "path": "Docs/UI-Reworked/LOCAL_EVIDENCE.md",
@@ -700,8 +735,8 @@
     },
     {
       "path": "Docs/UI-Reworked/execution-state.json",
-      "bytes": 992,
-      "sha256": "74379961adb039b08a36a8f8f53596e83b6bb545a53a434e9d9045cd6b26e09e"
+      "bytes": 1005,
+      "sha256": "47f5972737def31720be6e9557e06bf137e4ed5216158a2ce4759fb1a4eaf19f"
     },
     {
       "path": "Docs/UI-Reworked/foundation-register.csv",
@@ -710,8 +745,8 @@
     },
     {
       "path": "Docs/UI-Reworked/index.html",
-      "bytes": 202477,
-      "sha256": "12c454e5f4f928500ea743d088271547438df0841078db901d60c37d22f95f7b"
+      "bytes": 202629,
+      "sha256": "b14b09f4da76882c73b91b0607585caf75664cefc4bbfc738e4267c2ebfa954d"
     },
     {
       "path": "Docs/UI-Reworked/inference-register.csv",
@@ -721,7 +756,7 @@
     {
       "path": "Docs/UI-Reworked/package-validation.json",
       "bytes": 603,
-      "sha256": "76bb682045a5ff2b1e2d2a4a5e593614f0dc04c235cdf5a1a12ce2434f10e1ba"
+      "sha256": "5579dcbed760e20c057094ad5b9d6f43645dbf9d728010aa5b5185fe290348ef"
     },
     {
       "path": "Docs/UI-Reworked/project-register.csv",
@@ -750,8 +785,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8551,
-      "sha256": "e177a1405394509684e65c3828d65e484c4f042e2b31e5ddbdb667c3ba5dccf9"
+      "bytes": 7014,
+      "sha256": "14bfd4376076ba74ad69246f8be44b2822eed02dbf31f38c3801ff471063ddd6"
     },
     {
       "path": "README.txt",
@@ -1570,8 +1605,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 4380,
-      "sha256": "34092a890100a9022068b91480db88e8f20967c71ce6b7157ad916f07a1b3607"
+      "bytes": 4791,
+      "sha256": "333d56ae885d258d42f9165fb57bca14caa466d58e85ff65c40d9cccd95c5a3b"
     },
     {
       "path": "Tests/BottomMenuContracts/BottomMenuContracts.csproj",
@@ -2719,6 +2754,11 @@
       "sha256": "2060eca9434d670e999d56d4a44a8f6f4ebc01b629771c45c934a47e06bb9164"
     },
     {
+      "path": "Tools/build-showcase-panels.py",
+      "bytes": 1993,
+      "sha256": "d33700224eb694e577c2b1dcb2e6537014b8da7563026930b2defc481479f82d"
+    },
+    {
       "path": "Tools/build-specification.py",
       "bytes": 13432,
       "sha256": "4b9cafeb7345aab219c2781aa9e5e29b129f8cad3fbfd6469009b07176df55ea"
@@ -2800,8 +2840,8 @@
     },
     {
       "path": "Tools/showcase-files.json",
-      "bytes": 394,
-      "sha256": "07003b4fb101d2b3be18722627abc590618647fdd9e6b2d5ef6da7c6835253fc"
+      "bytes": 658,
+      "sha256": "1043e9007bba7dded8594ab8bf937ded05bd41267853796d4eaa73149b7b8944"
     },
     {
       "path": "Tools/test_foundation_run.py",
@@ -2842,7 +2882,6 @@
   "showcase_allowlist": [
     "Docs/Showcase/README.md",
     "Docs/Showcase/manifest.json",
-    "Docs/Showcase/logo.svg",
     "Docs/Showcase/main-menu.jpg",
     "Docs/Showcase/storyteller.jpg",
     "Docs/Showcase/pawn-overview.jpg",
@@ -2851,7 +2890,15 @@
     "Docs/Showcase/schedule.jpg",
     "Docs/Showcase/research.jpg",
     "Docs/Showcase/tools-motion.gif",
-    "Docs/Showcase/tools-open.png"
+    "Docs/Showcase/tools-open.png",
+    "Docs/Showcase/rimworld-logo.png",
+    "Docs/Showcase/pawn-panel.png",
+    "Docs/Showcase/work-panels.png",
+    "Docs/Showcase/schedule-panel.png",
+    "Docs/Showcase/research-panel.png",
+    "Docs/Showcase/panel-crops.json",
+    "Docs/Showcase/reframed-logo.svg",
+    "Docs/Showcase/reframed-logo.png"
   ],
   "revisions": [
     {
@@ -2883,6 +2930,35 @@
         "Tools/prepare-github.py",
         "Tools/showcase-files.json",
         "Tools/verify-source-snapshot.py"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "source_commit": "c614380633eb671dfddd3682b02ded82b538760d",
+      "scope": "Actual UI panel crops and combined logo using original RimWorld wordmark. GIF and runtime unchanged. No reconstructed UI.",
+      "removed_files": [
+        "Docs/Showcase/logo.svg"
+      ],
+      "changed_files": [
+        "Docs/Showcase/README.md",
+        "Docs/Showcase/manifest.json",
+        "Docs/Showcase/panel-crops.json",
+        "Docs/Showcase/pawn-panel.png",
+        "Docs/Showcase/reframed-logo.png",
+        "Docs/Showcase/reframed-logo.svg",
+        "Docs/Showcase/research-panel.png",
+        "Docs/Showcase/rimworld-logo.png",
+        "Docs/Showcase/schedule-panel.png",
+        "Docs/Showcase/work-panels.png",
+        "Docs/UI-Reworked/07-github-readiness.md",
+        "Docs/UI-Reworked/HANDOFF.md",
+        "Docs/UI-Reworked/execution-state.json",
+        "Docs/UI-Reworked/index.html",
+        "Docs/UI-Reworked/package-validation.json",
+        "README.md",
+        "THIRD_PARTY_NOTICES.md",
+        "Tools/build-showcase-panels.py",
+        "Tools/showcase-files.json"
       ]
     }
   ]

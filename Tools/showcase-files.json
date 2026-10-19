@@ -1,7 +1,6 @@
 [
   "Docs/Showcase/README.md",
   "Docs/Showcase/manifest.json",
-  "Docs/Showcase/logo.svg",
   "Docs/Showcase/main-menu.jpg",
   "Docs/Showcase/storyteller.jpg",
   "Docs/Showcase/pawn-overview.jpg",
@@ -10,5 +9,13 @@
   "Docs/Showcase/schedule.jpg",
   "Docs/Showcase/research.jpg",
   "Docs/Showcase/tools-motion.gif",
-  "Docs/Showcase/tools-open.png"
+  "Docs/Showcase/tools-open.png",
+  "Docs/Showcase/rimworld-logo.png",
+  "Docs/Showcase/pawn-panel.png",
+  "Docs/Showcase/work-panels.png",
+  "Docs/Showcase/schedule-panel.png",
+  "Docs/Showcase/research-panel.png",
+  "Docs/Showcase/panel-crops.json",
+  "Docs/Showcase/reframed-logo.svg",
+  "Docs/Showcase/reframed-logo.png"
 ]

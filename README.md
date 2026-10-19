@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Docs/Showcase/logo.svg" alt="RimWorld Reframed — a UI overhaul" width="900">
+  <img src="Docs/Showcase/reframed-logo.png" alt="RimWorld Reframed" width="900">
 </p>
 
 <p align="center">
@@ -24,9 +24,31 @@ The project is inspired by [RimWorld UI Reworked by yarich SA](https://www.behan
 
 ## Showcase
 
-**Your colony, at a glance.** Portrait cards, a compact navigation dock, separate time controls, and a pawn overview with needs, skills and equipment in one place.
+The mod's actual UI, isolated so you can see the details. These panels use the original rendered pixels from **v0.23.1**; the full game view and desktop frame are cropped away. [Capture details](Docs/Showcase/README.md).
 
-![The current colony HUD and pawn overview, with health, mood, food, recreation and skills](Docs/Showcase/pawn-overview.jpg)
+### Your colonists, at a glance
+
+Health, mood, needs, skills and equipment together in the pawn overview.
+
+![Actual Reframed pawn overview panel](Docs/Showcase/pawn-panel.png)
+
+### Work, with a little more clarity
+
+Compact work tags, numeric priorities and grouped assignments. Auto assign, Clear and Undo act on the selected pawn.
+
+![Actual Work roster and selected-pawn assignment panels](Docs/Showcase/work-panels.png)
+
+### Plan the day
+
+The real timetable, with colored schedules, colonist rows and copy controls.
+
+![Actual Reframed Schedule panel](Docs/Showcase/schedule-panel.png)
+
+### Explore what comes next
+
+Research dependencies, project requirements and unlocks in one view.
+
+![Actual Reframed research graph and project details](Docs/Showcase/research-panel.png)
 
 ### Animated panels
 
@@ -35,49 +57,6 @@ The project is inspired by [RimWorld UI Reworked by yarich SA](https://www.behan
 </p>
 
 *A real opening and closing sequence from the Tools panel. The loop includes pauses so you can inspect the expanded UI. [Capture details and still images](Docs/Showcase/README.md).*
-
-### From starting a colony to managing it
-
-Click a screenshot to see it at full size. All screenshots below show the installed **v0.23.1** mod, captured on **19 October 2026**.
-
-<table>
-  <tr>
-    <td width="50%">
-      <strong>A new front door</strong><br>
-      A compact main menu over RimWorld's own background artwork.<br><br>
-      <a href="Docs/Showcase/main-menu.jpg"><img src="Docs/Showcase/main-menu.jpg" alt="Redesigned main menu with grouped New colony, Load, Tutorial, Options and Mods buttons" width="480"></a>
-    </td>
-    <td width="50%">
-      <strong>Choose your story</strong><br>
-      Storyteller cards, difficulty choices and a conceptual rhythm guide.<br><br>
-      <a href="Docs/Showcase/storyteller.jpg"><img src="Docs/Showcase/storyteller.jpg" alt="Storyteller selection with Cassandra, Phoebe and Randy, difficulty choices and a conceptual rhythm curve" width="480"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Understand your colonists</strong><br>
-      Needs, mood effects and related information in a readable inspector.<br><br>
-      <a href="Docs/Showcase/pawn-needs.jpg"><img src="Docs/Showcase/pawn-needs.jpg" alt="Pawn Needs panel with mood effects and colored need bars" width="480"></a>
-    </td>
-    <td>
-      <strong>Make work readable</strong><br>
-      Compact work tags, optional numeric priorities and a focused assignment panel.<br><br>
-      <a href="Docs/Showcase/work.jpg"><img src="Docs/Showcase/work.jpg" alt="Work panel with colonist rows and a selected pawn's grouped work priorities" width="480"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Plan the day</strong><br>
-      A colored timetable with compact colonist rows and copy controls.<br><br>
-      <a href="Docs/Showcase/schedule.jpg"><img src="Docs/Showcase/schedule.jpg" alt="Schedule panel with 24-hour colored timelines for three colonists" width="480"></a>
-    </td>
-    <td>
-      <strong>See what comes next</strong><br>
-      A searchable research graph with linked projects, requirements and unlocks.<br><br>
-      <a href="Docs/Showcase/research.jpg"><img src="Docs/Showcase/research.jpg" alt="Research dependency graph with a selected project and its unlock details" width="480"></a>
-    </td>
-  </tr>
-</table>
 
 ### More of the interface, brought together
 
@@ -106,7 +85,7 @@ The runtime is developed and tested on **Windows**. Broad mod/DLC compatibility 
 
 Reframed is actively in development, with more UI still to cover. Some dialogs and DLC destinations retain native layouts; opening/closing motion, transparency, localization and small-screen behavior still need work across older surfaces. A missing-controls issue in the Reframed settings panel is also tracked.
 
-The [remaining UI audit](Docs/UI-Reworked/Audit32/README.md) organizes this work into a [35-group TODO list](Docs/UI-Reworked/Audit32/ui-todo.csv), including settings, storage and bills, policies, trade/caravan flows, secondary panels and compatibility. Screenshots illustrate the shown states; they do not imply that every window has been redesigned.
+The [remaining UI audit](Docs/UI-Reworked/Audit32/README.md) organizes this work into a [35-group TODO list](Docs/UI-Reworked/Audit32/ui-todo.csv), including settings, storage and bills, policies, trade/caravan flows, secondary panels and compatibility. These panels illustrate the shown states; they do not imply that every window has been redesigned.
 
 [Report a UI gap or bug](https://github.com/ninthworld/RimWorldReframed/issues/new/choose) · [Help develop the mod](CONTRIBUTING.md)
 
@@ -131,4 +110,4 @@ pwsh -File Tools/Test.ps1
 
 Design inspiration: **[yarich SA — RimWorld UI Reworked](https://www.behance.net/gallery/232485291/RimWorld-UI-Reworked)**. Reframed is independently implemented and is not affiliated with the concept designer or Ludeon Studios.
 
-Original code, documentation and original authored assets, including the Reframed logo, use the [MIT license](LICENSE). RimWorld artwork shown in gameplay captures belongs to its respective rights holders and is not covered by that grant. See [third-party notices](THIRD_PARTY_NOTICES.md) and [showcase provenance](Docs/Showcase/README.md).
+Original code, documentation and original authored assets use the [MIT license](LICENSE). The original RimWorld logo and game artwork shown in the panels belong to Ludeon Studios and their respective rights holders; they are not covered by that grant. See [third-party notices](THIRD_PARTY_NOTICES.md) and [showcase provenance](Docs/Showcase/README.md).

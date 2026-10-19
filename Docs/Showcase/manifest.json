@@ -277,12 +277,6 @@
   },
   "assets": [
     {
-      "path": "logo.svg",
-      "bytes": 1729,
-      "sha256": "f1f8525d88d2752793f9559994bc34a530ce7b907cdaa151b56b16eb6cf595d2",
-      "provenance": "Original authored vector; MIT"
-    },
-    {
       "path": "main-menu.jpg",
       "bytes": 375365,
       "sha256": "af479cc4d48f05a43daaf293c34c67ad3a0c158310305e5b6ef403c6d78df893",
@@ -335,6 +329,53 @@
       "bytes": 366713,
       "sha256": "471a00a86019d93788a00fdb875002771f94bc3b60f0e80a96089ad5668b540e",
       "provenance": "Actual game capture; game artwork retains third-party rights"
+    },
+    {
+      "path": "rimworld-logo.png",
+      "bytes": 34550,
+      "sha256": "9248bcb8e534f929a286d76b7a4ffe3fdcb53fe121fd7e168173cd1c1dfaeea2",
+      "provenance": "Original RimWorld logo; Ludeon Studios; not MIT"
+    },
+    {
+      "path": "pawn-panel.png",
+      "bytes": 181519,
+      "sha256": "f3f81514a863b498b876a64849fc5f2086e0e8895e34459ba5d91781389f6bf5",
+      "provenance": "Exact RGB crops of actual UI; see panel-crops.json; not reconstructed"
+    },
+    {
+      "path": "work-panels.png",
+      "bytes": 404526,
+      "sha256": "766cacd38797ee5770ee4391f0585d7d0bfdba6afe3c3519098a4ae21247ae08",
+      "provenance": "Exact RGB crops of actual UI; see panel-crops.json; not reconstructed"
+    },
+    {
+      "path": "schedule-panel.png",
+      "bytes": 162505,
+      "sha256": "dddcd3802170a2cf47588baed3ec1c005ea6a5db416149f3b0928d50e3fea0f9",
+      "provenance": "Exact RGB crops of actual UI; see panel-crops.json; not reconstructed"
+    },
+    {
+      "path": "research-panel.png",
+      "bytes": 366983,
+      "sha256": "a8151400684ad3ed9e4a99f34846c1f6d036f91f87476f72a19adfb0b2e5bde5",
+      "provenance": "Exact RGB crops of actual UI; see panel-crops.json; not reconstructed"
+    },
+    {
+      "path": "reframed-logo.svg",
+      "bytes": 46955,
+      "sha256": "44060721ff70b22a04987933483f9d2f8e5827829181040dc7cc5b77a1e070f5",
+      "provenance": "Composition using unchanged original RimWorld wordmark plus Reframed subtitle; Ludeon portion excluded from MIT"
+    },
+    {
+      "path": "reframed-logo.png",
+      "bytes": 65671,
+      "sha256": "498bd0bc6487e37b3b1c22e09285c6bb34ac83532c99c00bcd589688360067db",
+      "provenance": "Composition using unchanged original RimWorld wordmark plus Reframed subtitle; Ludeon portion excluded from MIT"
     }
-  ]
+  ],
+  "presentation_revision": {
+    "date": "2026-10-19",
+    "scope": "Real UI pixel crops; combined RimWorld Reframed logo made from the original wordmark and a subtitle; GIF unchanged.",
+    "crop_manifest": "panel-crops.json"
+  }
 }

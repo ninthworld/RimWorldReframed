@@ -1,3 +1,9 @@
+# Current presentation — actual UI and RimWorld Reframed branding
+
+The README now isolates actual rendered UI panels and uses a combined RimWorld Reframed logo built from the original game wordmark. The Tools animation is unchanged. The rejected vector UI approximations were never published. See [provenance](../Showcase/README.md) and [exact crop records](../Showcase/panel-crops.json). No runtime changes or broader acceptance claims. The existing package/Harmony identity remains unchanged.
+
+## Previous checkpoint — retained
+
 # Continue development — v0.23.1
 
 The public source repository now includes a visual README, original Reframed logo, seven actual v0.23.1 screenshots and a Tools opening/closing GIF. See [showcase provenance](../Showcase/README.md) and the explicit `Tools/showcase-files.json` media allowlist. The demonstration does not change runtime code or close broader UI acceptance gates.
