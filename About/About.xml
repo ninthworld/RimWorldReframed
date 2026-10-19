@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Reframed UI</name>
+  <author>Chris</author>
+  <packageId>chris.reframedui</packageId>
+  <supportedVersions><li>1.6</li></supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter><li>brrainz.harmony</li></loadAfter>
+  <description>Version 0.23.1. A UI overhaul in development, inspired by yarich SA's RimWorld UI Reworked concept. Reworked menus, save browsing, new-game setup, colony HUD, pawn inspection, Work and Architect panels, notifications, compact colony menus, research graph, History chart and World UI. Modules can be disabled in Mod settings. Startup and scoped offline checks are recorded; complete visual and functional acceptance, broad compatibility, localization and window motion/transparency coverage remain open. Independently implemented; not a complete reproduction or an official collaboration. RimWorld 1.6.</description>
+</ModMetaData>

@@ -1,0 +1,166 @@
+{
+  "schema": "ui-backlog-triage-rules-v1",
+  "interpretation": "Priority-ordered name grouping only. Matches are inferred, not evidence of redesign or reachability. A generic message/choice class can implement many flows. Source mentions are not coverage.",
+  "rules": [
+    {
+      "todo_id": "UI-029",
+      "order": 1,
+      "pattern": "(Debug|DevWindow|DevTool|EditWindow|EditTree|LogWindow|Dialog_Graph|Dialog_Table|Dialog_Inspect|Dialog_Tweak)"
+    },
+    {
+      "todo_id": "UI-033",
+      "order": 2,
+      "pattern": "(MainTabWindow_(Architect|Work|History|Factions)|MainMenuDrawer|DateReadout|GlobalControls|ResourceReadout|ColonistBar|PlaySettings|TimeControls|MapComponentUtility|MainButtonsRoot|ResearchFinished)"
+    },
+    {
+      "todo_id": "UI-001",
+      "order": 3,
+      "pattern": "^(RimWorld\\.ITab_Pawn_(Needs|Gear|Social|Character|Health|Log)|RimWorld\\.InspectPaneUtility|RimWorld\\.MainTabWindow_Inspect|RimWorld\\.(HealthCardUtility|SocialCardUtility|CharacterCardUtility|NeedsCardUtility))$"
+    },
+    {
+      "todo_id": "UI-002",
+      "order": 4,
+      "pattern": "(Dialog_InfoCard|StatsReportUtility|StatDrawEntry|InfoCard|Hyperlink)"
+    },
+    {
+      "todo_id": "UI-004",
+      "order": 5,
+      "pattern": "(Dialog_(Options|ModSettings|KeyBinding)|KeyPrefs|KeyBinding|OptionsCategory|OptionListing|ModSettings)"
+    },
+    {
+      "todo_id": "UI-005",
+      "order": 6,
+      "pattern": "(Dialog_Save|Dialog_Load|Dialog_FileList|Dialog_Export|Dialog_Import)"
+    },
+    {
+      "todo_id": "UI-006",
+      "order": 7,
+      "pattern": "(FloatMenu|Dropdown|FloatMenuOption)"
+    },
+    {
+      "todo_id": "UI-009",
+      "order": 8,
+      "pattern": "(MainTabWindow_Mechs|Mechanitor|MechGroup|MechControl|MechGestator|MechCluster|MechCarrier|RechargeSettings)"
+    },
+    {
+      "todo_id": "UI-010",
+      "order": 9,
+      "pattern": "(Storage|Stockpile|ThingFilter|FilterUI|FilterWorker|SelectStorage|StoreSettings)"
+    },
+    {
+      "todo_id": "UI-011",
+      "order": 10,
+      "pattern": "(Bill|Recipe|Production)"
+    },
+    {
+      "todo_id": "UI-012",
+      "order": 11,
+      "pattern": "(ITab_Pawn_(Prisoner|Slave|Guest|Training|Animal)|Prisoner|Slave|Guest|TrainingCard|AutoSlaughter)"
+    },
+    {
+      "todo_id": "UI-013",
+      "order": 12,
+      "pattern": "(Gene|Xenotype|Xenogerm|Growth|Birth|Pregnan|Baby|Child|Hemogen|Deathrest)"
+    },
+    {
+      "todo_id": "UI-008",
+      "order": 13,
+      "pattern": "(Ideo|Precept|Ritual|Meme|StyleCategory|Relic|RitualRole|StyleSelection|StylingStation)"
+    },
+    {
+      "todo_id": "UI-015",
+      "order": 14,
+      "pattern": "(WITab|Caravan|RoutePlanner|WorldInspect|WorldRoute|Transporter|TransportPod|SplitCaravan|FormCaravan|WorldSelector|TilePicker)"
+    },
+    {
+      "todo_id": "UI-016",
+      "order": 15,
+      "pattern": "(Trade|Transferable|TransferUI|GiveGift|Gifts|LoadTransport)"
+    },
+    {
+      "todo_id": "UI-017",
+      "order": 16,
+      "pattern": "(Policy|Outfit|FoodRestriction|Drug|ManageArea|ManageZone|AllowedArea|Reading|Timetable|MedicalDefaults)"
+    },
+    {
+      "todo_id": "UI-026",
+      "order": 17,
+      "pattern": "(Codex|Discovery|Discover)"
+    },
+    {
+      "todo_id": "UI-027",
+      "order": 18,
+      "pattern": "(Royal|Permit|Title|Anomaly|Ritual|Entity|Void|Monolith|Gravship|Odyssey|Expedition|Psychic|Psylink)"
+    },
+    {
+      "todo_id": "UI-019",
+      "order": 19,
+      "pattern": "(Page_ModsConfig|ModConfig|Screen_Credits|Tutor|Tutorial|Dialog_ModMismatch|ModDependency|Language)"
+    },
+    {
+      "todo_id": "UI-020",
+      "order": 20,
+      "pattern": "(Scenario|ScenPart|Storyteller|Difficulty|AdvancedGameConfig|WorldGeneration|CreateWorld|SelectScenario)"
+    },
+    {
+      "todo_id": "UI-021",
+      "order": 21,
+      "pattern": "(SelectLandingSite|ConfigureStartingPawns|StartingPawn|SelectStarting|PawnGeneration|ChoosePawn|Dialog_EditPawn|Page_)"
+    },
+    {
+      "todo_id": "UI-003",
+      "order": 22,
+      "pattern": "(Dialog_(NamePawn|ChangePawn|ChangeName|Rename)|NamePawnDialog|PawnName)"
+    },
+    {
+      "todo_id": "UI-023",
+      "order": 23,
+      "pattern": "(MainTabWindow_(Research|Quests|Assign|Schedule|Animals|Wildlife)|PawnColumnWorker|PawnTable|Research)"
+    },
+    {
+      "todo_id": "UI-018",
+      "order": 24,
+      "pattern": "(Letter|Reward|Quest|QuestPart|HistoryRecord|MessageBox)"
+    },
+    {
+      "todo_id": "UI-007",
+      "order": 25,
+      "pattern": "(Tooltip|ActiveTip|TipSignal|Messages|MessageTypeDef|Message$|Alert|MouseoverReadout|BeautyDrawer|RoomStat)"
+    },
+    {
+      "todo_id": "UI-025",
+      "order": 26,
+      "pattern": "(Gizmo|Command|Ability|Verb)"
+    },
+    {
+      "todo_id": "UI-024",
+      "order": 27,
+      "pattern": "(Learning|Readout|Targeter|Designator|Designate|SelectionDrawer|Drag|MapInterface|UIRoot|GizmoGrid)"
+    },
+    {
+      "todo_id": "UI-014",
+      "order": 28,
+      "pattern": "(^RimWorld\\.ITab|^Verse\\.InspectTabBase)"
+    },
+    {
+      "todo_id": "UI-028",
+      "order": 29,
+      "pattern": "(Dialog_|Window|ColorPicker|IconSelector|TabDrawer)"
+    },
+    {
+      "todo_id": "UI-034",
+      "order": 30,
+      "pattern": "(QuickSearch|Widgets|Listing|ListableOption|ReorderableWidget|CopyPasteUI|TexUI|^Verse\\.(Text|UI|GenUI)$|ColorComponents|RangeEnd)"
+    },
+    {
+      "todo_id": "UI-035",
+      "order": 31,
+      "pattern": "(LongEvent|ScreenFader|Cinematics|Ending|Credits|UIMenuBackground|UI_BackgroundMain)"
+    },
+    {
+      "todo_id": "UI-032",
+      "order": 32,
+      "pattern": ".*"
+    }
+  ]
+}

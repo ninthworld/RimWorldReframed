@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-19",
+  "scope": "Documentation integrity only; source-only snapshots explicitly omit local reference evidence. UI inventory and preparation checks are recorded in Audit32. No live acceptance implied.",
+  "source_only": true,
+  "project_count": 21,
+  "document_count": 8,
+  "inference_count": 72,
+  "source_hashes_verified": 0,
+  "broken_local_links": 0,
+  "missing_html_anchors": 0,
+  "duplicate_html_anchors": false,
+  "word_count": 20863,
+  "html_images_referenced": 0,
+  "browser_visual_check": "Not executed by this generator; see separate evidence if present"
+}

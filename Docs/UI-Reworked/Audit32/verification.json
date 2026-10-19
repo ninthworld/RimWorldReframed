@@ -1,0 +1,122 @@
+{
+  "schema": "audit32-verification-v1",
+  "date": "2026-10-19",
+  "phase": "complete_local_preparation; no publication",
+  "runtime_ui_implementation_changed": false,
+  "installed_dll_sha256": "1851FCAF146B322CAD9AA6A630708C897A071D5BF5E8DD3D7600B690A48915B8",
+  "inventory": {
+    "rows": 715,
+    "unique_hierarchy_declarations": 219,
+    "concrete_hierarchy_declarations": 189,
+    "helper_candidates": 496,
+    "deterministic_rerun": true,
+    "game_assembly_loaded": false
+  },
+  "backlog": {
+    "groups": 35,
+    "all_open": true,
+    "type_assignments": 715,
+    "mapping_kind": "inferred triage; not styling coverage"
+  },
+  "worker_validation": {
+    "pure_suites": 31,
+    "reported_checks": 8000012,
+    "excluded_native_evidence_suites": 4,
+    "private_build_errors": 0,
+    "compiler_warnings": 0,
+    "nu1900_feed_warning_emissions": 2,
+    "private_dll_sha256": "ADE08D7508B12CB7C846DB3E2C43ED54B78DD69C1D49428AC6EACF6A3389FB52"
+  },
+  "live": {
+    "version": "0.23.1",
+    "game_log_version": "1.6.4871 rev591",
+    "version_file": "1.6.4871 rev590",
+    "profile": "work/audit32/profile",
+    "startup_patch_targets": 123,
+    "ui_scale": 1.5,
+    "client_size": [
+      2062,
+      1236
+    ],
+    "actions": "Read-only UI navigation on isolated copied save; game paused",
+    "gameplay_acceptance": false,
+    "visual_baseline_promoted": false,
+    "session_closed": true,
+    "process_id": 32288,
+    "gameplay_mutations_requested": false,
+    "save_written": false,
+    "original_test_save_sha256_after": "4BA53BD187DA2CFB2D0ACE69A7EFA8E6AAEF3A3CBE4FCCD291AA0FB62CC299F6",
+    "copied_test_save_sha256_after": "4BA53BD187DA2CFB2D0ACE69A7EFA8E6AAEF3A3CBE4FCCD291AA0FB62CC299F6",
+    "installed_dll_unchanged": true,
+    "notes": "Fresh isolated profile; read-only settings/load/selection/Assign/policy navigation. Original and copied saves unchanged. Native loading, options, learning helper, tooltip and food-policy body observed; blank Reframed settings controls recorded. No visual baseline or gameplay acceptance.",
+    "captures": [
+      {
+        "path": "work/audit32/screenshots/01-entry-options.png",
+        "sha256": "A461F33751886ED3B666E4839E4D5A0C38EA794C46E2BEE034AA6BAB52312E3D"
+      },
+      {
+        "path": "work/audit32/screenshots/02-mod-settings-empty.png",
+        "sha256": "872B31707B54663AFE5431A0027324E2EB8F58401CE42A0837B855C2F93C95A2"
+      },
+      {
+        "path": "work/audit32/screenshots/03-native-loading-screen.png",
+        "sha256": "2E8CF0839B2BEFB0BB8BD8DB1206DEB33E3359FEB5ABB1AE07058ECCB1FC6AAC"
+      },
+      {
+        "path": "work/audit32/screenshots/04-colony-helper-native.png",
+        "sha256": "2D3AEE98B33D6C5316E8B1EF4CC3E6647D103DA54DE6AFC70664A3EF396CEBC5"
+      },
+      {
+        "path": "work/audit32/screenshots/05-pawn-inspector.png",
+        "sha256": "206021A6684B1E67EB4C4AD3553D3A2EEC568C900C6F8FC31FE506397C241639"
+      },
+      {
+        "path": "work/audit32/screenshots/06-assign-and-native-tooltip.png",
+        "sha256": "76AF8D4F7BD0E023B346A5AD9576967014E766C0813066EB7E5A743D184ACC46"
+      },
+      {
+        "path": "work/audit32/screenshots/07-native-food-policy-body.png",
+        "sha256": "D37AE001116D8DC824D0C7D569EB0227923FEF71481ED75CF3A8C26545DEC0DE"
+      }
+    ]
+  },
+  "published": false,
+  "hosted_ci_run": false,
+  "export_validation": {
+    "pure_suites_passed": 31,
+    "reported_checks": 8000012,
+    "excluded_native_evidence_suites": 4,
+    "test_exit_code": 0,
+    "private_build_errors": 0,
+    "compiler_warnings": 0,
+    "nu1900_feed_warning_emissions": 2,
+    "private_dll_sha256": "84B030744B7500A353D67BE72BF712BBBB8CC8BAEE8B8D8AA35DF8CAFF6BF311",
+    "build_installation_effect": "private export output only; installed DLL unchanged",
+    "source_snapshot_verifier": "551 files checked, zero errors on second trial; final snapshot independently rechecked after final docs",
+    "source_only_report": {
+      "projects": 21,
+      "inferences": 72,
+      "reference_hashes_verified": 0,
+      "missing_links": 0,
+      "missing_anchors": 0,
+      "images_referenced": 0
+    },
+    "local_report": {
+      "projects": 21,
+      "inferences": 72,
+      "reference_hashes_verified": 5,
+      "missing_links": 0,
+      "missing_anchors": 0
+    },
+    "hosted_ci_run": false,
+    "linux_execution": "configured but not observed locally"
+  },
+  "runtime_package": {
+    "files": 106,
+    "only_dll": "Assemblies/ReframedUI.dll",
+    "deployed": false,
+    "published": false,
+    "readme_and_notices": "package-local links corrected; developer files excluded"
+  },
+  "independent_review": "Source/UI coverage, repository history/provenance, helper boundaries, export/package tools and final source build inputs reviewed by isolated/read-only workers; findings addressed."
+}

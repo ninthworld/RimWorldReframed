@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+<title>Save</title>
+<desc>Source-silhouette trace from load.png; contour between raster samples is authored. Transparent canvas and nominal source padding are retained; offline master only.</desc>
+<path fill="#fff" fill-opacity=".76" fill-rule="evenodd" d="M5.2 1.05h8.5l.8.8V14.5h-13V5.1z M5.9 1.05h6.55v4.6H5.9z M3.6 8.75h8.7v5.75H3.6z"/>
+<path fill="#fff" fill-opacity=".94" d="M1.5 5.9h13V8h-13z"/>
+<path fill="#fff" fill-opacity=".27" d="M5.9 1.05h6.55v4.6H5.9z M3.6 8.75h8.7v5.75H3.6z"/>
+<path fill="#fff" fill-opacity=".9" d="M7 1.05h4.1v3.35H7z"/>
+<path fill="#fff" fill-opacity=".48" d="M4.7 10h6.5v4.5H4.7z"/>
+</svg>

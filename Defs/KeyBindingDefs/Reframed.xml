@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <KeyBindingDef>
+    <defName>Reframed_ToggleTools</defName>
+    <label>toggle Reframed map tools</label>
+    <category>Game</category>
+    <defaultKeyCodeA>C</defaultKeyCodeA>
+    <!-- Mutually exclusive contexts: the tools shortcut is suppressed throughout
+         Architect/designator use, other tabs, selections, text fields and modals. -->
+    <ignoreConflictsWith>
+      <li>Designator_Cancel</li>
+    </ignoreConflictsWith>
+  </KeyBindingDef>
+</Defs>

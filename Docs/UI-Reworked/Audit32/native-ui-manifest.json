@@ -1,0 +1,815 @@
+{
+  "schema": "native-ui-metadata-inventory-v1",
+  "game_version": "1.6.4871 rev590",
+  "game_assembly": {
+    "relative_to_game": "RimWorldWin64_Data/Managed/Assembly-CSharp.dll",
+    "sha256": "5CF1B5BE399D5B1C9C56CA72C9D35B4ECF307FEACF5859D04AC5A1AA5926356A",
+    "assembly_version": "1.6.9676.17735",
+    "mvid": "61e41735-6189-4da4-9d21-0260257b5097"
+  },
+  "installed_mod": {
+    "relative_to_game": "Mods/RimWorldReframed/Assemblies/ReframedUI.dll",
+    "sha256": "1851FCAF146B322CAD9AA6A630708C897A071D5BF5E8DD3D7600B690A48915B8",
+    "assembly_version": "0.23.1.0"
+  },
+  "available_data_directories": [
+    {
+      "directory": "Data/Biotech",
+      "package_id": "Ludeon.RimWorld.Biotech",
+      "supported_versions": [
+        "1.6"
+      ],
+      "about_sha256": "E8BA1E7344B483AC10B237FE830B46EB8BEDC920633349406EFDBBD9502EFE29"
+    },
+    {
+      "directory": "Data/Core",
+      "package_id": "Ludeon.RimWorld",
+      "supported_versions": [],
+      "about_sha256": "62C5B721F0A562075A0109BA558AF22791D2B20B7A5E677592C1E7C138A21336"
+    },
+    {
+      "directory": "Data/Ideology",
+      "package_id": "Ludeon.RimWorld.Ideology",
+      "supported_versions": [
+        "1.6"
+      ],
+      "about_sha256": "B01C25DE47B9D801F11BB2BEE14FC13577ED6223E38CF533510F14B72FD7FCB2"
+    }
+  ],
+  "native_type_definitions": 16158,
+  "inventory_rows": 715,
+  "category_counts": [
+    {
+      "category": "inspect-tab",
+      "total": 39,
+      "concrete_classes": 35,
+      "abstract_classes": 4,
+      "interfaces": 0
+    },
+    {
+      "category": "inspect-tab-base",
+      "total": 1,
+      "concrete_classes": 0,
+      "abstract_classes": 1,
+      "interfaces": 0
+    },
+    {
+      "category": "main-tab-window",
+      "total": 16,
+      "concrete_classes": 14,
+      "abstract_classes": 2,
+      "interfaces": 0
+    },
+    {
+      "category": "page",
+      "total": 12,
+      "concrete_classes": 11,
+      "abstract_classes": 1,
+      "interfaces": 0
+    },
+    {
+      "category": "ui-helper-candidate",
+      "total": 496,
+      "concrete_classes": 363,
+      "abstract_classes": 131,
+      "interfaces": 2
+    },
+    {
+      "category": "window",
+      "total": 141,
+      "concrete_classes": 120,
+      "abstract_classes": 21,
+      "interfaces": 0
+    },
+    {
+      "category": "world-inspect-tab",
+      "total": 10,
+      "concrete_classes": 9,
+      "abstract_classes": 1,
+      "interfaces": 0
+    }
+  ],
+  "overlapping_family_counts_including_root": [
+    {
+      "root": "Verse.Window",
+      "total": 169,
+      "concrete": 145,
+      "abstract_classes": 24
+    },
+    {
+      "root": "RimWorld.Page",
+      "total": 12,
+      "concrete": 11,
+      "abstract_classes": 1
+    },
+    {
+      "root": "RimWorld.MainTabWindow",
+      "total": 16,
+      "concrete": 14,
+      "abstract_classes": 2
+    },
+    {
+      "root": "Verse.InspectTabBase",
+      "total": 50,
+      "concrete": 44,
+      "abstract_classes": 6
+    },
+    {
+      "root": "RimWorld.ITab",
+      "total": 39,
+      "concrete": 35,
+      "abstract_classes": 4
+    },
+    {
+      "root": "RimWorld.Planet.WITab",
+      "total": 10,
+      "concrete": 9,
+      "abstract_classes": 1
+    }
+  ],
+  "family_roots": [
+    "Verse.Window",
+    "RimWorld.Page",
+    "RimWorld.MainTabWindow",
+    "Verse.InspectTabBase",
+    "RimWorld.ITab",
+    "RimWorld.Planet.WITab"
+  ],
+  "helper_roots": [
+    "Verse.Gizmo",
+    "Verse.Designator",
+    "RimWorld.PawnColumnWorker",
+    "Verse.Letter",
+    "Verse.ChoiceLetter",
+    "RimWorld.ScenPart",
+    "RimWorld.Planet.WorldObject",
+    "Verse.Listing"
+  ],
+  "helper_type_name_rule": "(?:Widgets|CardUtility|UI$|UIUtility$|UIDrawer$|(?:^|\\.)(?:StatsReportUtility|StatDrawEntry|TabDrawer|QuickSearchWidget|QuickSearchFilter|SearchWidget|FloatMenuOption|FloatMenuUtility|Text|GenUI)$)",
+  "declared_ui_method_rule": "Contains OnGUI, ends GUI, or exact DoWindowContents/FillTab/DrawInspectPane/DoInspectPaneButtons/DrawExtraSelectionOverlays/DoEditInterface/DrawExtraInfo/GizmoOnGUI/DrawOption. Helper-type-name-rule matches also retain Draw/Do/Fill-prefixed method names. Compiler-generated closure candidates omitted unless in a selected hierarchy.",
+  "source_input_hashes": [
+    {
+      "path": "Source/AlertCards.cs",
+      "sha256": "588B57E16DA5EAC64C3CB01B9962EE75D5BFF7533F405E4B733EC83D14475764"
+    },
+    {
+      "path": "Source/ArchitectDiagnostics.cs",
+      "sha256": "1A779C146E9B99DFBC4287F4D073D620AEB63B73B9C7B042FB1FA4FDE5530F57"
+    },
+    {
+      "path": "Source/ArchitectLayout.cs",
+      "sha256": "0582F48516B6D82B6078A21E646D69564042FB68E66264B2F20A58AEA8D07D36"
+    },
+    {
+      "path": "Source/ArchitectPanel.cs",
+      "sha256": "0672F0E9928D59E04265DFE994B02E3CCFBDB87284FEDBBB215B32E14ADB079D"
+    },
+    {
+      "path": "Source/ArchitectPopup.cs",
+      "sha256": "9CE9392F7BAC0466E2C82E0E17444B71340351CC536A3BD2DD26F2996BC761A8"
+    },
+    {
+      "path": "Source/ArchitectTransition.cs",
+      "sha256": "2741C275624D295FE02D065CB1E6C5AC41000640FA8FCD26A9C350DC02844925"
+    },
+    {
+      "path": "Source/BottomMenuChildren.cs",
+      "sha256": "5033D09A3922CE959A2E799211D7D120BE993DB54257EBEFD16591734607E66E"
+    },
+    {
+      "path": "Source/BottomMenuContracts.cs",
+      "sha256": "FE3BCC316250A7F857C5242E183D93F9E9EC15AD499B964F3A2F260CBC70D7DD"
+    },
+    {
+      "path": "Source/BottomMenuPolicy.cs",
+      "sha256": "4C7036E9744D67EC0E5EC6561041E86E87AF99886F37A1491553E6007FF1B342"
+    },
+    {
+      "path": "Source/BottomMenuShell.cs",
+      "sha256": "12A98BB43A76CFF6989FC53EC93980B87BEF9CA2EC506AB402282B203C49352A"
+    },
+    {
+      "path": "Source/BottomMenuSkin.cs",
+      "sha256": "D27454C61B34C6470F16EDEA83C632C5E0968B4EFD4C378B69B3BB25DE37A038"
+    },
+    {
+      "path": "Source/ClockPresentation.cs",
+      "sha256": "5F47DFFE152B1B31A5BA4170DFE906F891ED123BF342725F01C93B94936C4C53"
+    },
+    {
+      "path": "Source/ColonistCardRenderer.cs",
+      "sha256": "66A2D0A86C0983396413EE104EFDD5961BDA80D9739F85799D40C680F6D518AC"
+    },
+    {
+      "path": "Source/ColonistCards.cs",
+      "sha256": "ECC3DEBE206CD1F8D6AC3D78D8F701D6FD06E7C97812747FAE99416D3B4F0138"
+    },
+    {
+      "path": "Source/ColonistGroupsComponent.cs",
+      "sha256": "AE3ABB2EAC9C6A3E0BFEF7874CA2A8E52F332BBE87E6EE304E2B082C7E5037BA"
+    },
+    {
+      "path": "Source/ColonistGroupsHud.cs",
+      "sha256": "FE2A3C091E848E882704626358FD2B949A348D180BABE08923665EEFD6BA8D31"
+    },
+    {
+      "path": "Source/ColonyConditions.cs",
+      "sha256": "7F8AE9E08285160B551F3E8AFEB874C7C837D27AD88AD4626C8E54109005A4DC"
+    },
+    {
+      "path": "Source/ColonyIssueMotion.cs",
+      "sha256": "54EFE55CCE910A2AC1475788114B4A71F3D669D9A1C6FA17AAA05BF8522A4AEA"
+    },
+    {
+      "path": "Source/ColonyIssuePolicy.cs",
+      "sha256": "397A642B80D0609B2E6A762976F3A3233FC59F14318B9A5471AA7B9243163037"
+    },
+    {
+      "path": "Source/ColonyIssues.cs",
+      "sha256": "277E68256E100BDFE38B0FD8DBF80573AEF5F7B43B65FFE88BA3D7C0826A73AF"
+    },
+    {
+      "path": "Source/CriticalIssueCards.cs",
+      "sha256": "BE3C495F7AC08458B5EE32B0F304155C27C010447A0E0216163EB2E7B2866F99"
+    },
+    {
+      "path": "Source/DesignTokens.cs",
+      "sha256": "B60029D407F3518B1F02A41FDED357C3636C45837A9D08D33A48840E3F0BFE77"
+    },
+    {
+      "path": "Source/Dock.cs",
+      "sha256": "D8E2796790ACE68B4D633BF507A374BAB39BBA2570AF317ABD4022530E13BE15"
+    },
+    {
+      "path": "Source/DockIcons.cs",
+      "sha256": "19825F3A18ECCB3EB7CF45F6232671C8837B3FB2E8B1AA608FAA48FD343B13A3"
+    },
+    {
+      "path": "Source/DockLayout.cs",
+      "sha256": "EB3C344542370B3C301D12DB313CC27F10F77EDBDB0308C40B35C6058E540789"
+    },
+    {
+      "path": "Source/EntryLanguagePicker.cs",
+      "sha256": "9CFFF29230868DB5D57C49BA51479181AD75775BD55715ADA379BFFF32E7A8E2"
+    },
+    {
+      "path": "Source/EntryMenuTransition.cs",
+      "sha256": "B74314202CF573362DC596ADF3988AAA20EF3F57E7F936E25323B5033AF94590"
+    },
+    {
+      "path": "Source/EntryMotionEvidence.cs",
+      "sha256": "2E710FE780C3C55D4EF681D6C878D20AD18E6BAE17570A734229B225F7164CEC"
+    },
+    {
+      "path": "Source/EntryScene.cs",
+      "sha256": "F7A561020576240B38E47732FB7749EDFCE0AA48FF3AC05CCE2FADAE71DDFC8F"
+    },
+    {
+      "path": "Source/EscMenuNative.cs",
+      "sha256": "D12464A432B616C3BBC95C87FFFF65AD4A53D7DC0B0EB721B88C92F94127C351"
+    },
+    {
+      "path": "Source/EscMenuPanel.cs",
+      "sha256": "2E40EA76E752E4BAD130B6C3796DBB8D67344D7D27E8C3406F570F2B621AA302"
+    },
+    {
+      "path": "Source/EscMenuPatches.cs",
+      "sha256": "50E287ED143DA73F28BDD0AA47A92A902CBC5DAA060820B3B66E3B562488E6A7"
+    },
+    {
+      "path": "Source/EscMenuPolicy.cs",
+      "sha256": "8933D28B5470D5F9D28357413C68F9CC36A27E17AB32138CB4916B37B0D123C7"
+    },
+    {
+      "path": "Source/FloatingClock.cs",
+      "sha256": "7A507BED3A002BB996B01BC5371D5A6EB1015EC7014EB0E6C649E34E968EF0F8"
+    },
+    {
+      "path": "Source/FoundationMetrics.cs",
+      "sha256": "4E7AF510608C9FF810310D49BFF9865BE9E9CFE496501C40B2CB914ECDF248A5"
+    },
+    {
+      "path": "Source/FoundationPreview.cs",
+      "sha256": "47163850A3CDB933D9BFE1DF00C1623AF2F095A35E096E355C8F6C63996E97B8"
+    },
+    {
+      "path": "Source/HudControls.cs",
+      "sha256": "2C453D05767012FCF3A4452E5CCE176BBF733A65F467B70D48F7EBCF1B38E62A"
+    },
+    {
+      "path": "Source/HudGeometry.cs",
+      "sha256": "62E905D6ED472D8BCA2266AFDA8CE2702368BDA5F882475740F641C847F3526D"
+    },
+    {
+      "path": "Source/HudLayout.cs",
+      "sha256": "1374C82E838148397D2C88EF3EBEC0B3FBDB2F022C9E6DBC6D548C8A51EB5AC0"
+    },
+    {
+      "path": "Source/HudTypography.cs",
+      "sha256": "D2A1EE0196DA90119544F349602107C70C98D471915C9791AEEE1593E149773D"
+    },
+    {
+      "path": "Source/InfoCardLayout.cs",
+      "sha256": "259F0187636AC98804B321B13799C77426EFD507FE1B5E3573E962F324A481F5"
+    },
+    {
+      "path": "Source/InfoCardPanel.cs",
+      "sha256": "D02F99F4C43E54120A22C45AC1B1015AE9B3456D138506993F4955400E0F12D3"
+    },
+    {
+      "path": "Source/InfoCardPatches.cs",
+      "sha256": "028F3820A38C672B327CC7057E17C25FA1AA5809240F0C81A12DB52E86D8C203"
+    },
+    {
+      "path": "Source/InfoCardPermits.cs",
+      "sha256": "EAAA3E651195BE2AE3E433A00A6F17DB6E7590C87904C8355B1B5E68EA8C75C9"
+    },
+    {
+      "path": "Source/InfoCardStats.cs",
+      "sha256": "EDB803851065733D31F6173A12BCFC3E558B6D4BFE74CC3A5A7D43662C14A1DB"
+    },
+    {
+      "path": "Source/InformationPopupScope.cs",
+      "sha256": "830D41B32504B70679A9E67335F06C471ABBDCDBD7D2BE65CB5B194B7FD76964"
+    },
+    {
+      "path": "Source/InspectorIcons.cs",
+      "sha256": "530E98474E626038F64B026BC5B6481C57F800E73C763B34242ABC4C5F3CCC0D"
+    },
+    {
+      "path": "Source/KnowledgeMenus.cs",
+      "sha256": "A5BC1B31E334F6B4A181B719FDDDF29FB71ABDBA6BC900EC2B45005D45035D29"
+    },
+    {
+      "path": "Source/KnowledgeMenusGraph.cs",
+      "sha256": "68F3B8D15D03966AF58442A2B9EC68919214F8B74BC5EFA801D7163CB975847E"
+    },
+    {
+      "path": "Source/KnowledgeMenusNative.cs",
+      "sha256": "E33BA96B5BF2F81013764127A9C6B203BBCE7BA6A1389A7F962895DF1ED927C8"
+    },
+    {
+      "path": "Source/KnowledgeMenusPolicy.cs",
+      "sha256": "D09D1DFFC03CF43E3DB976300656B50637201B85D5D6B14654D69D66D8AECA11"
+    },
+    {
+      "path": "Source/MainMenu.cs",
+      "sha256": "A0F28C8FA2BDDF156AEE60FA3A7412D71AD2F1BC707EC81399C62989CCE40659"
+    },
+    {
+      "path": "Source/MainMenuIcons.cs",
+      "sha256": "E0677D3A48F130AEFD9E03EF9D381AD2BACF4F33E9E6F9116E8CC38D918C650E"
+    },
+    {
+      "path": "Source/MaterialsDiagnostics.cs",
+      "sha256": "C3844FBE4EE541F661B5E729E084592104E79A3C16477A3E2837D02E1DDCE154"
+    },
+    {
+      "path": "Source/MenuFeaturePatches.cs",
+      "sha256": "F8A2B63B26F41CD4E2B0E84DC67B5DBAB7187521BDEF992D4065CE31A9362880"
+    },
+    {
+      "path": "Source/MenuTooltipStyle.cs",
+      "sha256": "702E75E096817246BC29859366F4D19277D623A1BB233EE1D9E0BE5B89AFE509"
+    },
+    {
+      "path": "Source/NewGameScenarioView.cs",
+      "sha256": "13EE8DFF7ACF3764897FB8A1A9536A1C621622460AA62256ABABF6683885F0EA"
+    },
+    {
+      "path": "Source/NewGameSetup.cs",
+      "sha256": "0F6376C99E6F495423D4371DFE57D90E593B16A881249402D9A731E9A890444D"
+    },
+    {
+      "path": "Source/NewGameStorytellerView.cs",
+      "sha256": "84C6D1F478BA51F591E740CF3A5100D41C91BC932E3A91CA2A0308A6DE824383"
+    },
+    {
+      "path": "Source/NewGameWorldFactions.cs",
+      "sha256": "A9D48C9B2335ACB6EDABAE06651EA44644F3EED181FBB645B64A65F6F6FF61C5"
+    },
+    {
+      "path": "Source/NewGameWorldView.cs",
+      "sha256": "D7779005D673E1CD194A266135C566E57AF35EF7B6B9D4085A16050BBA37ED70"
+    },
+    {
+      "path": "Source/NotificationCards.cs",
+      "sha256": "1BE64D78D2740DCC5C8F55CCD2850F43EBF159429DF8A8EAD2B63D0BEC3FE3DD"
+    },
+    {
+      "path": "Source/NotificationContext.cs",
+      "sha256": "DD3D7CFF4E23B5ED66B3C0BD8BBA19F9740524B5EB581F638E9C317BE8844227"
+    },
+    {
+      "path": "Source/NotificationMotion.cs",
+      "sha256": "DAB922C44AE0426CA80D97841EC6201FF0B2EE14D9A099D503A32BB5EDD277A1"
+    },
+    {
+      "path": "Source/NotificationPolicy.cs",
+      "sha256": "CD04C8873B2DAA9A7F00925B14E1663FF7E08926A8D6AF5B99C9EDD2FB7397F6"
+    },
+    {
+      "path": "Source/ObjectInspectorDescription.cs",
+      "sha256": "41DA7D5985AD8A5B83818B648CA6E538AAF7153DDC5C2E1C3798C351F79652F9"
+    },
+    {
+      "path": "Source/ObjectInspectorDescriptionLayout.cs",
+      "sha256": "E31358A3666B376B6417A264BD97989BA02284124EF3F59B73743FE89F82E21E"
+    },
+    {
+      "path": "Source/ObjectInspectorDescriptionPatches.cs",
+      "sha256": "69F3A229BB0C5C5D65A04591A82E2A61150846E4419D4F4E27B66F9AF6C68836"
+    },
+    {
+      "path": "Source/PawnBarDiagnostics.cs",
+      "sha256": "5114147B9081A28A82570038DA048B7B489403B4F79ED03DEEB042E98127B7D1"
+    },
+    {
+      "path": "Source/PawnBarGeometry.cs",
+      "sha256": "D1E34624AA0361BB840E180F928FFB23BD93CF5BE5666B5E4C1961B637E3028D"
+    },
+    {
+      "path": "Source/PawnBarIcons.cs",
+      "sha256": "0E7E410BF1BFF13FF8E327F5CF858080B3E8B594D3F5D20591BBD47C66655000"
+    },
+    {
+      "path": "Source/PawnBioActionPolicy.cs",
+      "sha256": "9847A7FCA27BA036CFED8D65866FDA8119A846724D3A3A7C7C7A01E304A275FA"
+    },
+    {
+      "path": "Source/PawnBioActionsLayout.cs",
+      "sha256": "1E54C60C881EA2F7E350352DA290FFE0BB7BFFCB57DCDFE1E39FCE9EE1E4B636"
+    },
+    {
+      "path": "Source/PawnBioActionsNaming.cs",
+      "sha256": "4CB60F029F5E8EB1825ECD93DCEEDA377553A0E1E29236781964D1A14F6CDEDA"
+    },
+    {
+      "path": "Source/PawnBioActionsNamingPatches.cs",
+      "sha256": "42E4D57A4DDBA337762783B722388DE818A583011A4AE2166D286C9A01C741A1"
+    },
+    {
+      "path": "Source/PawnBioActionsNative.cs",
+      "sha256": "D9F847D1E10C3C9DECB12619BD5A73598501337D64E0A5598FA99DB1FA006F3E"
+    },
+    {
+      "path": "Source/PawnBioActionsStyle.cs",
+      "sha256": "83A53B37032FB63AD31D5511DACA1EBE6B0DC70C5304AEA7A90FF67ECD44F9B3"
+    },
+    {
+      "path": "Source/PawnBioActionsWindow.cs",
+      "sha256": "D639CD318F7A4D913422F4FF3B6CECB13594D51B1404ECDEE88FC50C490CC815"
+    },
+    {
+      "path": "Source/PawnBioPanel.cs",
+      "sha256": "07215A77873C3EE0233884C2A2490C2B16A5CB703AFC4A5827BC2F46D619DD23"
+    },
+    {
+      "path": "Source/PawnGearLayout.cs",
+      "sha256": "656A809E7C877966C37CE2DD8B0E1AEE1CB217BC2ED31C1D98D8D3260F5E4B4C"
+    },
+    {
+      "path": "Source/PawnGearNative.cs",
+      "sha256": "4CF4648FE89176ECE09B38A53ACE6E275DE1EEDEFAB45EDE47B299EE6568F951"
+    },
+    {
+      "path": "Source/PawnGearPanel.cs",
+      "sha256": "917DAF6E98F4A16038F94A81CA60275C32502C16892551BF9316882E56967A04"
+    },
+    {
+      "path": "Source/PawnHealthLayout.cs",
+      "sha256": "56D0456CA9F2064E90FA7B9E2793F49AC40BCD3541CB23BD5AEC7261B01A8F12"
+    },
+    {
+      "path": "Source/PawnHealthNative.cs",
+      "sha256": "BFFB033474363BBD4F78F6ECC5781910134DA89014BF17DF46710C75023CA984"
+    },
+    {
+      "path": "Source/PawnHealthOperations.cs",
+      "sha256": "7F34354AA9BA0E63CCD1F2457E197F814D14BDB713DD0001179E03DEBDF01995"
+    },
+    {
+      "path": "Source/PawnHealthPanel.cs",
+      "sha256": "C2C737F480EC2FC4745346229D1FB771409C7BA2077D9ADD278478DF8C2600E6"
+    },
+    {
+      "path": "Source/PawnInspectorBodies.cs",
+      "sha256": "2333080BD8084D599D8C8DCABAE7B270D45E5A8B6ECCEEAACBBDAEAEE1785639"
+    },
+    {
+      "path": "Source/PawnInspectorExtras.cs",
+      "sha256": "1E76168A97BC3CF11F9600FC71DE77E973EEE9258D3FE4AA43FE1C5AA0774562"
+    },
+    {
+      "path": "Source/PawnInspectorExtrasCertainty.cs",
+      "sha256": "892A18130CA7C85732C1EC0CB7759D36C0032A05101183E9CB0F4BF4F2B4BF53"
+    },
+    {
+      "path": "Source/PawnInspectorExtrasHealth.cs",
+      "sha256": "C8B0B54C65EE00B663FE6FA32CCBE372A7314FE05009E9FE1F58F9F1F2521CAA"
+    },
+    {
+      "path": "Source/PawnInspectorExtrasPolicy.cs",
+      "sha256": "CA1341A0B188AD36B00407C0124F6B2610530DCEC3888047A7CA8B4F0E078995"
+    },
+    {
+      "path": "Source/PawnInspectorExtrasSocial.cs",
+      "sha256": "4417FD8D44B42E43103BE885F0DB9BEB2EB1B2617B04FBFD080B279823BC97E4"
+    },
+    {
+      "path": "Source/PawnInspectorLayout.cs",
+      "sha256": "050EDDE1DA69EA77CA1532FF974CA3913A8938A943A88D20CC21FBDF39E1A525"
+    },
+    {
+      "path": "Source/PawnInspectorPopup.cs",
+      "sha256": "BAC2B10788A2E4032228AAA07D1B366DF00895A666551541743B7D2DE9EAFEEE"
+    },
+    {
+      "path": "Source/PawnInspectorView.cs",
+      "sha256": "006D28F53B555DDDB2C2C1E3AD4105DAE35554182C1CB192EDB3E71A1609605F"
+    },
+    {
+      "path": "Source/PawnInspectorWidgets.cs",
+      "sha256": "49BBA13E1D5871AF8AA0605FA0DCBD0D3CC619F32DCEE063D05329881CFDF8D2"
+    },
+    {
+      "path": "Source/PawnLogLayout.cs",
+      "sha256": "065407D6AE89E5C79A7CB56197CE735F24ABF28CE4D4997E59E89F32B6DED7EE"
+    },
+    {
+      "path": "Source/PawnLogPanel.cs",
+      "sha256": "8E917B3289E1604FF4A1FFAB05533FB88AC6F82365B429983F934BD3191480A7"
+    },
+    {
+      "path": "Source/PawnLogText.cs",
+      "sha256": "1529068F4F779028A415C1CCC7B29B4F8E2D1096EFF04A968BC1446104B8315D"
+    },
+    {
+      "path": "Source/PawnNeedsNovelty.cs",
+      "sha256": "77E9F5928D3D814045A640F6D3DE7C5C5B9E2F2C18832E395FE25DA3F4B038D9"
+    },
+    {
+      "path": "Source/PawnNeedsPanel.cs",
+      "sha256": "8EC2BA8B596444FDFBF2A598CB4ACE0872EE8048C559B19E935054F25312436E"
+    },
+    {
+      "path": "Source/PawnSocialLayout.cs",
+      "sha256": "2DC87C5D3D4F8C1C05B3ACECDD555D3C1189CF2990B37E962B6A0CBC9A6FB2E9"
+    },
+    {
+      "path": "Source/PawnSocialPanel.cs",
+      "sha256": "A58781194342EC6C201F9C172895878031AE03BA78ED34B5CE8731326DC0E80C"
+    },
+    {
+      "path": "Source/PawnSocialText.cs",
+      "sha256": "817979AC6B29705C07B4F8F5862B652729993C3F982C93BEBE488DFF953302F7"
+    },
+    {
+      "path": "Source/PrimitiveGeometry.cs",
+      "sha256": "B083BFF0ACA568E3345F42927413EB88109D75B38B9D931DF3BC06809683BF7F"
+    },
+    {
+      "path": "Source/ReframedDlcPanel.cs",
+      "sha256": "051E33A7014C73C523A44A6F4F1121C12E9B79F501021749592466CDDAA67AA5"
+    },
+    {
+      "path": "Source/ReframedIcons.cs",
+      "sha256": "5FE323767CF40926238E51493ED9D1C58856BA9D6DA25A1D6E819B6E365E98CD"
+    },
+    {
+      "path": "Source/ReframedMod.cs",
+      "sha256": "1F2FF26D30B221931E22A209C9987DC689AD1A25ECF410859499F91BCF099B6C"
+    },
+    {
+      "path": "Source/ReframedSaveBrowser.cs",
+      "sha256": "E2B8E33E0E3204C0BF31542D7D1B0603D3A76AA5699491B46F307FA84F7C9581"
+    },
+    {
+      "path": "Source/ReframedStoryteller.cs",
+      "sha256": "6145F8F0E0F4B09169EC1895115CA6D4A78FEAABA060EB332EDE406CDF7F8317"
+    },
+    {
+      "path": "Source/ResearchNotice.cs",
+      "sha256": "A3E46855E4953399B0B3FF321DC9B0B3E3B59D0E608C329C0F96508F5D9729AA"
+    },
+    {
+      "path": "Source/ResearchNoticePatches.cs",
+      "sha256": "C7598DC78D346D8EDF518529E7F5D85E4526C151CCD1C97CB5D3D0F7B14A97A6"
+    },
+    {
+      "path": "Source/ResearchNoticePolicy.cs",
+      "sha256": "1EA4568A2B91759E6727820403C3673B274A7E503C6608EB8A6D82C981C54986"
+    },
+    {
+      "path": "Source/ResourceHistoryComponent.cs",
+      "sha256": "63A3AE4AE9440909B024E9D0861FA4C0C34069FEC8A279488D2F73756E349D0B"
+    },
+    {
+      "path": "Source/ResourceHistoryCounts.cs",
+      "sha256": "47CEB181C8F3741EE888D6C5088A208F01EB00E2FDDEA35F9DF65941312B171B"
+    },
+    {
+      "path": "Source/ResourceHistoryCountsRules.cs",
+      "sha256": "2C3F67F9E2806A23C6B0306AC1C885E60702347983DB0E297B5C1F033916A9CB"
+    },
+    {
+      "path": "Source/ResourceHistoryLedger.cs",
+      "sha256": "83839A6999DAC31F6074ABBC0CCC6F27598C39EAAA6DDAE7D5BE7D9F5E9117A0"
+    },
+    {
+      "path": "Source/Resources.cs",
+      "sha256": "68F8357745A07D71BF8043F2FB3A7F13D2CF650627731BB787DCF4C44297C98E"
+    },
+    {
+      "path": "Source/RightHudGeometry.cs",
+      "sha256": "5D5827433CFC140E21BFE81F25F2AF0774AA62130EE3F0AD069C092513800064"
+    },
+    {
+      "path": "Source/RightHudIcons.cs",
+      "sha256": "A5BFF986765DD40EC09511F729F8014A371E880FFEEA1AF4FD44D4CF7F53DCA9"
+    },
+    {
+      "path": "Source/RosterMenus.cs",
+      "sha256": "2B2FFF5B94144AE759DE91B06C342C56A0A4505B2F74E02F24F0A95041524FA0"
+    },
+    {
+      "path": "Source/RosterMenusDetails.cs",
+      "sha256": "D4AFC7B746D14AE27B2ED661C9B4DB2F5D6381FB4989753C1690EB0DC204935D"
+    },
+    {
+      "path": "Source/RosterMenusLayout.cs",
+      "sha256": "B763C30168710029D6C7BFBC89E926F086B5300A0C582B5D75EF7B48618813AC"
+    },
+    {
+      "path": "Source/RosterMenusMotion.cs",
+      "sha256": "4C5A7100150DC6D975F87267C08D21927A40389785D8632D494BCAA91430ED67"
+    },
+    {
+      "path": "Source/RosterMenusNative.cs",
+      "sha256": "899511D3C62F0FB0F4C11226CC9E288CE6790155C1D43A164B85001C94C8E101"
+    },
+    {
+      "path": "Source/RuntimeDiagnostics.cs",
+      "sha256": "9527B05A065C52B0E4E95279CF3BDAD8F4E11C89090B6778A15B96E943B1298F"
+    },
+    {
+      "path": "Source/RuntimePatchBootstrap.cs",
+      "sha256": "BF69D44768611815F12D1A5E1345DFF3041D9CFCC48746F790ACB27B6BC29394"
+    },
+    {
+      "path": "Source/SaveBrowserIcons.cs",
+      "sha256": "707EBEE347621D861F30A8086E4F4F72D9A0396CC6A0902A9B7C49D4D5A76B87"
+    },
+    {
+      "path": "Source/SaveBrowserRouting.cs",
+      "sha256": "91303C0F60C5576F93A9C004097C2B8A9055EF7E54EA8464CE637AEB3EF31CE3"
+    },
+    {
+      "path": "Source/SavePreviewStore.cs",
+      "sha256": "5374373CE5349884A50F4E2E8DA796958F4E568CCE05E42D7F36B4388C10E2DA"
+    },
+    {
+      "path": "Source/SelectionCommands.cs",
+      "sha256": "38C112C33CEF39B5EF340A0170758DF578E49FFF5947D341DA23771B9D33F481"
+    },
+    {
+      "path": "Source/SelectionInspector.cs",
+      "sha256": "131F7E49E356FE066F6B89AA9695623D332D42CCDC3BBB44C1D1C85506BC1F5B"
+    },
+    {
+      "path": "Source/Theme.cs",
+      "sha256": "E7D10300F382DC50DAA2BA7ADD5686048283ED85E4C3C80898159CA84CF704BD"
+    },
+    {
+      "path": "Source/ToolsAndWindows.cs",
+      "sha256": "91CCD3670F0DF3A9A5D45BA16C5EA7B6F75CB1BD01790FCB261C2CA359171BDE"
+    },
+    {
+      "path": "Source/ToolsDiagnostics.cs",
+      "sha256": "84035C2DEC1C0928DDF92809142EEEF138040D8202E1D880B7C10E794490E02D"
+    },
+    {
+      "path": "Source/ToolsIcons.cs",
+      "sha256": "591D2D633DE1FB5614CB85559F93A3F671F0160756C4BABB1EBC42B67F2CC3E8"
+    },
+    {
+      "path": "Source/ToolsMapHover.cs",
+      "sha256": "8F60ADC31018E9C4AC205A67720334B8EE1AD801970AE41418FB1DB6610703E6"
+    },
+    {
+      "path": "Source/ToolsPanel.cs",
+      "sha256": "1C4FB144B7B15FF198B0C46CB3C3C97BB7665DF0722C5BD712F5470578B9321E"
+    },
+    {
+      "path": "Source/ToolsPanelMotion.cs",
+      "sha256": "E6BE5C64DEBB0721CE6365FE0A606DD891FB6A1AC3E26864CBC21D71936D964D"
+    },
+    {
+      "path": "Source/ToolsSearchFocus.cs",
+      "sha256": "409CC9B9896C398F2D2C037965E4A1942A79CCA4585F1D56FD2500795903E506"
+    },
+    {
+      "path": "Source/ToolsSearchService.cs",
+      "sha256": "BC87825E89499F225AA99CB9997869BC337E62CF4BBF29099EEC00A23B38BFCB"
+    },
+    {
+      "path": "Source/TypographyCalibration.cs",
+      "sha256": "B7A4166EAE3758BC1D19DCE9368D2980D7271385ECF5FC1910DD20E60E3311D6"
+    },
+    {
+      "path": "Source/WorkPanel.cs",
+      "sha256": "F051DA244408753E3D93BDDACEF730C5CD5B76E037A6337F8E6B8B80F2CE1663"
+    },
+    {
+      "path": "Source/WorkPanelAudit.cs",
+      "sha256": "8EE3756C30B8870CF89042EEBF7F05272504359F3A09A8FC465458B0EFCD7859"
+    },
+    {
+      "path": "Source/WorkPanelLayout.cs",
+      "sha256": "B9990D67A62D72FE4A0A2494F085E8722F084A2A876B5634F2763410735094CC"
+    },
+    {
+      "path": "Source/WorkPanelMotion.cs",
+      "sha256": "C5ED2D704156CD646D25E2992879D1BE983BE52BE1052CDAFB8ABFAC75573A51"
+    },
+    {
+      "path": "Source/WorkPanelNative.cs",
+      "sha256": "A7A0E5C319E6810910B4ED79AB89435ED97EF162906D509BA63AE053684D2F57"
+    },
+    {
+      "path": "Source/WorkPanelPatches.cs",
+      "sha256": "4054DE07ED40BA38BF0F93E93DA34BB30D62DD5BC85A3085CBA31218AB1829AB"
+    },
+    {
+      "path": "Source/WorkPanelPolicy.cs",
+      "sha256": "B1797A538CB2D0C82A626F24AD6986B9C8E4BA887AEBBCE22688427E815DAFFE"
+    },
+    {
+      "path": "Source/WorkPanelTransition.cs",
+      "sha256": "B8F445A4F6627749D5187920C413DD74B27972BA1EE772D80BD4329B9F03631E"
+    },
+    {
+      "path": "Source/WorkPanelView.cs",
+      "sha256": "E9407A26AF0B734DF8FDAFC381109E8C762A45458C08139523FD927CDFA6B697"
+    },
+    {
+      "path": "Source/WorkPanelViewLayout.cs",
+      "sha256": "776886C30264708BD7902A9B01891CD10402E1A8D915D2FE6EEF73C018730F8F"
+    },
+    {
+      "path": "Source/WorldHud.cs",
+      "sha256": "61D18F440B49F40BC5669EDB8ED6F6521894B115D5468DB10E1DA128FF8893E8"
+    },
+    {
+      "path": "Source/WorldMenus.cs",
+      "sha256": "0D70127BBC453202AC100739A5A98A6B95799C29474B43FB5B405970A06ACD4D"
+    },
+    {
+      "path": "Source/WorldMenusFactions.cs",
+      "sha256": "0152A0069A5FA4D28940974B157E697357BE63EAB850686310137CAD4738B606"
+    },
+    {
+      "path": "Source/WorldMenusHistory.cs",
+      "sha256": "C70AA4F0D8B77B2EEA1E0D5B88D6B37F59C979D21E5F43C167C35330B0F8D82A"
+    },
+    {
+      "path": "Source/WorldMenusHistoryChart.cs",
+      "sha256": "DFD830C26F8D373807F3FDE83F8017DE992A8F08533AD59F64DC17336B4E5219"
+    },
+    {
+      "path": "Source/WorldMenusHistoryGraphPolicy.cs",
+      "sha256": "88C47324A9FE20275FB96A6FDF19819B2A30124F4CB85BEF2C92438585B4AE0E"
+    },
+    {
+      "path": "Source/WorldMenusInspector.cs",
+      "sha256": "5E79072728563BB8A33AB8D41C8B8AB5071A4DF2E931946B4FF2B60B833976BC"
+    },
+    {
+      "path": "Source/WorldMenusPatches.cs",
+      "sha256": "0C443A6B7F38376C67ED128F0BEC9F42676D22B5A695F6C4F25EADE03268A964"
+    },
+    {
+      "path": "Source/WorldMenusPolicy.cs",
+      "sha256": "E028E9DA1010512D1FC326AAAFB58CBA0BEA2A61C9D20B3FD863D936341CCB70"
+    }
+  ],
+  "generator_input_hashes": [
+    {
+      "path": "Tools/UIInventory/Program.cs",
+      "sha256": "1AD8A5114550ACC93C13A6E42F9FB5AA119267D06E0E259AE84AD5A9FE95EC5E"
+    },
+    {
+      "path": "Tools/UIInventory/UIInventory.csproj",
+      "sha256": "2060ECA9434D670E999D56D4A44A8F6F4EBC01B629771C45C934A47E06BB9164"
+    }
+  ],
+  "csv_sha256": "CD15E9113507EDAE42160DE9861F1E38BDED55C044BBE8DC2A357E8181DEC347",
+  "bounds": [
+    "Metadata declarations from the installed Assembly-CSharp.dll only; game code never loaded or executed; no implementation bodies exported.",
+    "Family totals overlap and include abstract roots. Concrete declarations are candidates, not proof of reachability or one screen per type.",
+    "Helper candidates are a documented name/inheritance sweep, not an exhaustive inventory of all composited or dynamically generated UI.",
+    "Source mentions include comments, guards and incidental text. They establish neither registered patches nor redesign, animation, translucency or acceptance coverage.",
+    "Game assembly includes DLC code irrespective of installed/owned/active DLC. Data/About.xml reports local availability only; absent data and compiled classes do not establish ownership or runtime activation.",
+    "Third-party mod assemblies, active ModsConfig, saves and live game state are outside this extraction. Generic direct bases are represented by their generic definition; base_chain follows definition inheritance."
+  ]
+}

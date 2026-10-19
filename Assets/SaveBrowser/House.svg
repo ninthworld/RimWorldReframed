@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+<title>House</title>
+<desc>Source-silhouette trace from load.png; contour between raster samples is authored. Transparent canvas and nominal source padding are retained; offline master only.</desc>
+<path fill="#fff" fill-opacity=".61" fill-rule="evenodd" d="M2.7 7.2h10.7v7.55H2.7z M7.25 10.05h2.7v4.7h-2.7z M4.05 9.35h1.8v2h-1.8z"/>
+<path fill="#fff" fill-opacity=".29" d="M7.25 10.05h2.7v4.7h-2.7z"/>
+<path fill="#fff" fill-opacity=".38" d="M4.05 9.35h1.8v2h-1.8z"/>
+<path fill="#fff" d="m1.25 7.3 6.7-6.2 6.8 6.2z"/>
+<path fill="#fff" fill-opacity=".85" d="M1.05 7.1H15v1.15H1.05z"/>
+</svg>

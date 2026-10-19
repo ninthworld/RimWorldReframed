@@ -1,0 +1,61 @@
+{
+  "evidence_class": "synthetic harness self-test only; not game evidence or an approved golden",
+  "image_size": [
+    16,
+    12
+  ],
+  "channels": "rgb",
+  "included_pixels_without_mask": 192,
+  "reference.png": {
+    "mismatched_pixels": 0,
+    "total_error": 0,
+    "bbox_xywh": null
+  },
+  "shift-right-one.png": {
+    "mismatched_pixels": 22,
+    "total_error": 16830,
+    "bbox_xywh": [
+      2,
+      2,
+      11,
+      5
+    ]
+  },
+  "altered-color.png": {
+    "mismatched_pixels": 1,
+    "total_error": 510,
+    "bbox_xywh": [
+      2,
+      2,
+      1,
+      1
+    ]
+  },
+  "absent-icon.png": {
+    "mismatched_pixels": 9,
+    "total_error": 6885,
+    "bbox_xywh": [
+      2,
+      2,
+      3,
+      3
+    ]
+  },
+  "altered-glyph.png": {
+    "mismatched_pixels": 1,
+    "total_error": 765,
+    "bbox_xywh": [
+      10,
+      2,
+      1,
+      1
+    ]
+  },
+  "content-mask.png": {
+    "included_pixels": 24,
+    "purpose": "9-pixel icon rectangle plus 15-pixel glyph rectangle"
+  },
+  "empty-mask.png": {
+    "expected": "invalid, never pass"
+  }
+}

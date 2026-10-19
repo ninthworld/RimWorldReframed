@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><mask id="cross"><rect width="16" height="16" fill="white"/><path d="M7 6V8H5V10H7V12H9V10H11V8H9V6Z" fill="black"/></mask></defs><g mask="url(#cross)"><path d="M1 5H15V13H1ZM4 2H12V5H10.5V3.5H5.5V5H4Z" fill="white"/></g></svg>

@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework></PropertyGroup>
+  <ItemGroup><Compile Include="../../Source/WorkPanelLayout.cs" Link="WorkPanelLayout.cs" /><Compile Include="../../Source/WorkPanelPolicy.cs" Link="WorkPanelPolicy.cs" /><Compile Include="../../Source/ToolsPanelMotion.cs" Link="ToolsPanelMotion.cs" /><Compile Include="../../Source/WorkPanelMotion.cs" Link="WorkPanelMotion.cs" /></ItemGroup>
+</Project>

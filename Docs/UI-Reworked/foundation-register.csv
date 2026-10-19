@@ -1,0 +1,7 @@
+order,status,delivered_increment,evidence,remaining_exit_scope
+F00,partial,F00-F02-A,reference contract and evidence audited,video calibration; exact bounds; full scale/geometry contracts
+F01,partial,F00-F02-A; F01-B,35 native candidates; 175 source diagnostics; final fixed-cell regression exact,native role selection; weight/spacing/baseline/fallback; exact Unity source match
+F02,partial,F00-F02-A; F02-B,8 bounded reconstructed icons; source/live atlas and ink bounds,native matches; correct ink geometry; source equality; state variants
+F03,partial,F03-A; F03-B,lab integration; native Small labels; scaled seam fix verified at 1 and 1.5,complete primitive families; exact source coverage and state comparisons
+F04,partial,F04-A; F04-B,provenance receipts; physical mappings; scoped metrics; defect regression; 42 final captures,whole frame/GPU budgets; full matrix; soak; approved goldens
+F05,partial,F05-A,member guards and diagnostics; startup/master switch smoke,failure injection; conflicts; broader adapters and environment matrix

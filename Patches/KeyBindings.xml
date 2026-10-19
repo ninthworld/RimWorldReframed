@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Native conflict checks are directional. Tools C is inactive throughout
+       Architect/designator use, so declare that contextual pairing both ways. -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/KeyBindingDef[defName="Designator_Cancel"]/ignoreConflictsWith</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/KeyBindingDef[defName="Designator_Cancel"]/ignoreConflictsWith</xpath>
+      <value><li>Reframed_ToggleTools</li></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/KeyBindingDef[defName="Designator_Cancel"]</xpath>
+      <value><ignoreConflictsWith><li>Reframed_ToggleTools</li></ignoreConflictsWith></value>
+    </nomatch>
+  </Operation>
+</Patch>

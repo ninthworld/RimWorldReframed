@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+<title>Delete</title>
+<desc>Source-silhouette trace from load.png; contour between raster samples is authored. Transparent canvas and nominal source padding are retained; offline master only.</desc>
+<g fill="#84929f"><path fill-rule="evenodd" d="M4 6.3h12l-.55 9.9c-.05.7-.4 1.05-1.1 1.05h-8.7c-.7 0-1.05-.35-1.1-1.05z M7 8.25h1.65v6.7H7z M11.35 8.25H13v6.7h-1.65z"/><path d="M2 4.9h16v1.7H2z"/></g>
+<path fill="none" stroke="#84929f" stroke-width="1.7" stroke-linejoin="round" d="M7.25 4.9V3.4c0-.9.5-1.4 1.4-1.4h2.7c.9 0 1.4.5 1.4 1.4v1.5"/>
+</svg>

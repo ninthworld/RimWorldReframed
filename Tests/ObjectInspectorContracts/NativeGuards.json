@@ -1,0 +1,14 @@
+{
+  "methods": [
+    {"type":"RimWorld.InspectPaneFiller","name":"DrawInspectString","static":true,"returns":"System.Void","args":["System.String","UnityEngine.Rect"]},
+    {"type":"RimWorld.InspectPaneFiller","name":"DrawHealth","static":true,"returns":"System.Void","args":["Verse.WidgetRow","Verse.Thing"]},
+    {"type":"Verse.WidgetRow","name":"FillableBar","static":false,"returns":"UnityEngine.Rect","args":["System.Single","System.Single","System.Single","System.String","UnityEngine.Texture2D","UnityEngine.Texture2D"]},
+    {"type":"Verse.Widgets","name":"Label","static":true,"returns":"System.Void","args":["UnityEngine.Rect","System.String"]},
+    {"type":"Verse.Text","name":"CalcHeight","static":true,"returns":"System.Single","args":["System.String","System.Single"]},
+    {"type":"Verse.Text","name":"CalcSize","static":true,"returns":"UnityEngine.Vector2","args":["System.String"]},
+    {"type":"Verse.Widgets","name":"DrawButtonGraphic","static":true,"returns":"System.Void","args":["UnityEngine.Rect"]},
+    {"type":"RimWorld.MainTabWindow_Inspect","name":"DoPaneContents","static":false,"returns":"System.Void","args":["UnityEngine.Rect"]},
+    {"type":"Verse.Widgets","name":"LabelScrollable","static":true,"returns":"System.Void","args":["UnityEngine.Rect","System.String","UnityEngine.Vector2&","System.Boolean","System.Boolean","System.Boolean"]},
+    {"type":"Verse.Widgets","name":"FillableBar","static":true,"returns":"UnityEngine.Rect","args":["UnityEngine.Rect","System.Single","UnityEngine.Texture2D","UnityEngine.Texture2D","System.Boolean"]}
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "methods": [
+    {"type":"RimWorld.PawnColumnWorker_WorkPriority","name":"IsIncapableOfWholeWorkType","static":false,"returns":"System.Boolean","args":["Verse.Pawn","Verse.WorkTypeDef"]},
+    {"type":"RimWorld.PawnColumnWorker_WorkPriority","name":"HeaderClicked","static":false,"returns":"System.Void","args":["UnityEngine.Rect","RimWorld.PawnTable"]},
+    {"type":"RimWorld.PawnColumnWorker_CopyPasteWorkPriorities","name":"CopyFrom","static":false,"returns":"System.Void","args":["Verse.Pawn"]},
+    {"type":"RimWorld.PawnColumnWorker_CopyPasteWorkPriorities","name":"PasteTo","static":false,"returns":"System.Void","args":["Verse.Pawn"]},
+    {"type":"RimWorld.PawnColumnWorker_CopyPasteWorkPriorities","name":"get_AnythingInClipboard","static":false,"returns":"System.Boolean","args":[]},
+    {"type":"RimWorld.WidgetsWork","name":"DrawWorkBoxFor","static":true,"returns":"System.Void","args":["System.Single","System.Single","Verse.Pawn","Verse.WorkTypeDef","System.Boolean"]},
+    {"type":"RimWorld.WidgetsWork","name":"TipForPawnWorker","static":true,"returns":"System.String","args":["Verse.Pawn","Verse.WorkTypeDef","System.Boolean"]},
+    {"type":"Verse.Widgets","name":"ButtonInvisible","static":true,"returns":"System.Boolean","args":["UnityEngine.Rect","System.Boolean"]},
+    {"type":"RimWorld.Pawn_WorkSettings","name":"SetPriority","static":false,"returns":"System.Void","args":["Verse.WorkTypeDef","System.Int32"]},
+    {"type":"RimWorld.Pawn_WorkSettings","name":"GetPriority","static":false,"returns":"System.Int32","args":["Verse.WorkTypeDef"]},
+    {"type":"RimWorld.Pawn_WorkSettings","name":"get_Initialized","static":false,"returns":"System.Boolean","args":[]},
+    {"type":"RimWorld.Pawn_WorkSettings","name":"get_EverWork","static":false,"returns":"System.Boolean","args":[]},
+    {"type":"RimWorld.Pawn_WorkSettings","name":"Notify_UseWorkPrioritiesChanged","static":false,"returns":"System.Void","args":[]},
+    {"type":"RimWorld.PawnTable","name":"get_PawnsListForReading","static":false,"returns":"System.Collections.Generic.List`1[Verse.Pawn]","args":[]},
+    {"type":"RimWorld.PawnTable","name":"get_Columns","static":false,"returns":"System.Collections.Generic.List`1[RimWorld.PawnColumnDef]","args":[]},
+    {"type":"RimWorld.PawnTable","name":"SetDirty","static":false,"returns":"System.Void","args":[]},
+    {"type":"RimWorld.PawnTable","name":"SortBy","static":false,"returns":"System.Void","args":["RimWorld.PawnColumnDef","System.Boolean"]},
+    {"type":"RimWorld.PawnTable","name":"get_SortingBy","static":false,"returns":"RimWorld.PawnColumnDef","args":[]},
+    {"type":"RimWorld.PawnTable","name":"get_SortingDescending","static":false,"returns":"System.Boolean","args":[]},
+    {"type":"RimWorld.PawnColumnWorker","name":"DoCell","static":false,"returns":"System.Void","args":["UnityEngine.Rect","Verse.Pawn","RimWorld.PawnTable"]},
+    {"type":"RimWorld.PawnColumnWorker","name":"GetMinWidth","static":false,"returns":"System.Int32","args":["RimWorld.PawnTable"]},
+    {"type":"RimWorld.PawnColumnDef","name":"get_Worker","static":false,"returns":"RimWorld.PawnColumnWorker","args":[]},
+    {"type":"RimWorld.Pawn_SkillTracker","name":"AverageOfRelevantSkillsFor","static":false,"returns":"System.Single","args":["Verse.WorkTypeDef"]},
+    {"type":"RimWorld.Pawn_SkillTracker","name":"MaxPassionOfRelevantSkillsFor","static":false,"returns":"RimWorld.Passion","args":["Verse.WorkTypeDef"]},
+    {"type":"Verse.Pawn","name":"WorkTypeIsDisabled","static":false,"returns":"System.Boolean","args":["Verse.WorkTypeDef"]},
+    {"type":"Verse.Pawn","name":"GetReasonsForDisabledWorkType","static":false,"returns":"System.Collections.Generic.List`1[System.String]","args":["Verse.WorkTypeDef"]},
+    {"type":"RimWorld.PawnUtility","name":"IsWorkTypeDisabledByAge","static":true,"returns":"System.Boolean","args":["Verse.Pawn","Verse.WorkTypeDef","System.Int32&"]},
+    {"type":"RimWorld.PawnsFinder","name":"get_AllMapsWorldAndTemporary_Alive","static":true,"returns":"System.Collections.Generic.List`1[Verse.Pawn]","args":[]}
+  ],
+  "fields": [
+    {"type":"RimWorld.Pawn_WorkSettings","name":"priorities","static":false,"fieldType":"Verse.DefMap`2[Verse.WorkTypeDef,System.Int32]"},
+    {"type":"RimWorld.MainTabWindow_PawnTable","name":"table","static":false,"fieldType":"RimWorld.PawnTable"},
+    {"type":"RimWorld.PawnColumnDef","name":"workType","static":false,"fieldType":"Verse.WorkTypeDef"},
+    {"type":"RimWorld.PawnColumnDef","name":"sortable","static":false,"fieldType":"System.Boolean"},
+    {"type":"Verse.WorkTypeDef","name":"relevantSkills","static":false,"fieldType":"System.Collections.Generic.List`1[RimWorld.SkillDef]"},
+    {"type":"RimWorld.PlaySettings","name":"useWorkPriorities","static":false,"fieldType":"System.Boolean"},
+    {"type":"Verse.Game","name":"playSettings","static":false,"fieldType":"RimWorld.PlaySettings"},
+    {"type":"Verse.Pawn","name":"workSettings","static":false,"fieldType":"RimWorld.Pawn_WorkSettings"},
+    {"type":"Verse.Pawn","name":"skills","static":false,"fieldType":"RimWorld.Pawn_SkillTracker"}
+  ]
+}

@@ -1,0 +1,2 @@
+# Verified with the bundled offline Python runtime; no network installation needed.
+Pillow==12.3.0

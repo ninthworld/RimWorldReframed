@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "updated_date": "2026-10-19",
+  "phase": "source_snapshot_ready_for_development",
+  "version": "0.23.1",
+  "source_repository_commit": "176b194a37df1789dad6167b4dee11ee22be3dd9",
+  "local_installed_dll_sha256": "1851FCAF146B322CAD9AA6A630708C897A071D5BF5E8DD3D7600B690A48915B8",
+  "installed_here": false,
+  "active_agents": [],
+  "active_orders": [],
+  "visual_acceptance": false,
+  "next_dependency": "Work through Audit32/ui-todo.csv; obtain licensed game locally for build/live tests.",
+  "historical_evidence": "LOCAL_EVIDENCE.md"
+}

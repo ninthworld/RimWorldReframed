@@ -1,0 +1,54 @@
+name: UI gap or regression
+description: Report a missing state, visual discrepancy or interaction regression.
+title: "[UI] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Mod and RimWorld version
+      description: Include the source commit if building locally.
+    validations:
+      required: true
+  - type: input
+    id: surface
+    attributes:
+      label: Window, panel or audit item
+      description: Include a UI inventory identifier if known.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      description: Describe the starting state and exact actions.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+      description: Separate observed behavior from a suggested or inferred design.
+    validations:
+      required: true
+  - type: input
+    id: display
+    attributes:
+      label: Resolution and UI scale
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Operating system, DLC and other mods
+    validations:
+      required: true
+  - type: textarea
+    id: motion
+    attributes:
+      label: Opening, closing, transparency and input
+      description: For panels, describe both motion directions, reversals and any clicks received while moving.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Optional screenshots or concise redacted errors. Remove personal information. Do not attach saves, proprietary DLLs or third-party concept boards.

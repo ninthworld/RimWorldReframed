@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "description": "Game-independent net10.0 executable contracts; no source reference archive required.",
+  "projects": [
+    "Tests/BottomMenuContracts/BottomMenuContracts.csproj",
+    "Tests/BuildMenuContracts/BuildMenuContracts.csproj",
+    "Tests/CaptureContracts/CaptureContracts.csproj",
+    "Tests/ColonyIssueContracts/ColonyIssueContracts.csproj",
+    "Tests/EscMenuContracts/EscMenuContracts.csproj",
+    "Tests/HudContracts/HudContracts.csproj",
+    "Tests/InfoCardContracts/InfoCardContracts.csproj",
+    "Tests/InspectorContracts/InspectorContracts.csproj",
+    "Tests/KnowledgeMenuContracts/KnowledgeMenuContracts.csproj",
+    "Tests/LayoutTests.csproj",
+    "Tests/NotificationContracts/NotificationContracts.csproj",
+    "Tests/ObjectInspectorContracts/ObjectInspectorContracts.csproj",
+    "Tests/PawnBarContracts/PawnBarContracts.csproj",
+    "Tests/PrimitiveContracts/PrimitiveContracts.csproj",
+    "Tests/ResearchNoticeContracts/ResearchNoticeContracts.csproj",
+    "Tests/ResourceContracts/ResourceContracts.csproj",
+    "Tests/RightHudContracts/RightHudContracts.csproj",
+    "Tests/RosterMenuContracts/RosterMenuContracts.csproj",
+    "Tests/RuntimeContracts/RuntimeContracts.csproj",
+    "Tests/SavePreviewContracts/SavePreviewContracts.csproj",
+    "Tests/Selection16Gear/Selection16Gear.csproj",
+    "Tests/Selection16Needs/Selection16Needs.csproj",
+    "Tests/Selection16Social/Selection16Social.csproj",
+    "Tests/Selection17Bio/Selection17Bio.csproj",
+    "Tests/Selection17Log/Selection17Log.csproj",
+    "Tests/SelectionContracts/SelectionContracts.csproj",
+    "Tests/ToolsContracts/ToolsContracts.csproj",
+    "Tests/WorkPanelContracts/WorkPanelContracts.csproj",
+    "Tests/WorkPanelNativeContracts/WorkPanelPolicyContracts.csproj",
+    "Tests/WorkPanelViewContracts/WorkPanelViewContracts.csproj",
+    "Tests/WorldMenuContracts/WorldMenuContracts.csproj"
+  ],
+  "excluded": [
+    {
+      "project": "Tests/CaptureContracts/NativeMetadata/NativeMetadata.csproj",
+      "reason": "Native metadata CLI; requires a locally owned game assembly and output path."
+    },
+    {
+      "project": "Tests/WorkPanelNativeContracts/NativeAudit.csproj",
+      "reason": "Native metadata CLI; requires a locally owned game assembly and output path."
+    },
+    {
+      "project": "Tests/InspectorExtrasContracts/InspectorExtrasContracts.csproj",
+      "reason": "Requires freshly extracted native-generics JSON from the installed game."
+    },
+    {
+      "project": "Tests/Selection17Health/Selection17Health.csproj",
+      "reason": "Requires freshly extracted health-native JSON from the installed game."
+    }
+  ]
+}

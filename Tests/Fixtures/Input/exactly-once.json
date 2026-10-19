@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "test_id": "SYNTHETIC-INPUT-01",
+  "actions": [
+    {"action_id": "click-1", "command": "SelectPawn", "target_id": "Pawn_101", "expected_count": 1},
+    {"action_id": "hover-1", "command": "SelectPawn", "target_id": "Pawn_101", "expected_count": 0}
+  ],
+  "dispatches": [
+    {"dispatch_id": "dispatch-1", "action_id": "click-1", "command": "SelectPawn", "target_id": "Pawn_101", "gui_event": "MouseUp", "frame": 12}
+  ]
+}

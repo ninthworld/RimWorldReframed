@@ -1,0 +1,28 @@
+# Generated outputs stay local to each checkout. Preserve the installed prototype
+# with the pre-Git ZIP and SHA-256 manifest referenced in Docs/UI-Reworked.
+**/bin/
+**/obj/
+/Assemblies/
+/artifacts/
+/work/
+/.vs/
+/.idea/
+*.user
+*.suo
+*.log
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.env
+.env.*
+!.env.example
+*.rws
+*.rws.old
+*.key
+*.pem
+# Do not commit proprietary game/Harmony binaries or downloaded packages.
+*.dll
+*.pdb
+*.nupkg
+
